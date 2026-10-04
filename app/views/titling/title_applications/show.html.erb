@@ -1,0 +1,9 @@
+<% content_for :title, @title_application.application_number %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between"><div><p class="eyebrow">Titling operations · <%= @title_application.jurisdiction_code %></p><h1 class="display mt-3"><%= @title_application.application_number %></h1><p class="lede mt-4"><%= @title_application.vehicle.vin %> · <%= @title_application.vehicle.customer.display_name %></p></div><div class="flex gap-3"><% unless %w[issued rejected].include?(@title_application.status) %><%= button_to "Advance status", advance_status_title_application_path(@title_application), method: :post, class: "btn-primary" %><% end %></div></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Status</dt><dd><%= status_badge(@title_application.status) %></dd></div><div><dt>Title number</dt><dd><%= @title_application.title_number.presence || "—" %></dd></div><div><dt>Submitted</dt><dd><%= @title_application.submitted_at ? format_date(@title_application.submitted_at.to_date) : "—" %></dd></div>
+  <div><dt>Issued</dt><dd><%= @title_application.issued_at ? format_date(@title_application.issued_at.to_date) : "—" %></dd></div>
+</dl></div></div>
+<p class="eyebrow mb-4 mt-12">Status timeline</p><div class="card"><div class="card-body">
+  <% if Array(@title_application.status_history).any? %><ol class="space-y-5"><% @title_application.status_history.each do |entry| %><li class="flex items-center justify-between border-b border-ink-800 pb-4"><span><%= status_badge(entry["status"]) %></span><span class="text-sm text-ink-400"><%= entry["at"].present? ? format_date(Time.iso8601(entry["at"]).to_date) : "—" %></span></li><% end %></ol><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div></div>

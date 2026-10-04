@@ -1,0 +1,7 @@
+<% if customer.errors.any? %><p class="field-error mb-6"><%= customer.errors.full_messages.to_sentence %></p><% end %>
+<div class="card"><div class="card-body"><div class="grid gap-6 md:grid-cols-2">
+  <% %i[customer_number first_name last_name email phone address_line1 city postal_code].each do |field| %>
+    <div><%= form.label field, field.to_s.humanize, class: "label" %><%= form.text_field field, class: "input" %></div>
+  <% end %>
+  <div><%= form.label :jurisdiction_code, "Jurisdiction", class: "label" %><%= form.select :jurisdiction_code, Jurisdictions.codes.sort, {}, class: "select" %></div>
+</div><div class="mt-8 flex gap-3"><%= form.submit class: "btn-primary" %><%= link_to "Cancel", customers_path, class: "btn-secondary" %></div></div></div>

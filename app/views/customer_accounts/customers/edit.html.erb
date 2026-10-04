@@ -1,0 +1,3 @@
+<% content_for :title, "Edit customer" %>
+<section class="mb-12"><p class="eyebrow">Customer accounts</p><h1 class="display mt-3">Edit customer</h1><p class="lede mt-4">Update customer contact and jurisdiction details.</p></section>
+<%= form_with model: @customer, url: customer_path(@customer), scope: :customer, method: :patch, class: "space-y-6" do |form| %><%= render "form", form: form, customer: @customer %><% end %>

@@ -1,0 +1,22 @@
+<% content_for :title, @customer.display_name %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+  <div><p class="eyebrow">Customer account · <%= @customer.customer_number %></p><h1 class="display mt-3"><%= @customer.display_name %></h1><p class="lede mt-4"><%= @customer.email %> · <%= @customer.jurisdiction_code %></p></div>
+  <div class="flex gap-3"><%= link_to "Edit customer", edit_customer_path(@customer), class: "btn-secondary" %></div>
+</section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Phone</dt><dd><%= @customer.phone.presence || "—" %></dd></div><div><dt>Address</dt><dd><%= [@customer.address_line1, @customer.city, @customer.postal_code].compact_blank.join(", ").presence || "—" %></dd></div>
+  <div><dt>Jurisdiction</dt><dd><%= jurisdiction_name(@customer.jurisdiction_code) %></dd></div>
+</dl></div></div>
+<% if @customer.vehicles.any? %>
+  <% @customer.vehicles.each do |vehicle| %>
+    <p class="eyebrow mb-4 mt-12">Vehicle · <%= vehicle.vin %></p>
+    <div class="card overflow-x-auto"><table class="table"><thead><tr><th>Vehicle</th><th>Year</th><th>Weight</th><th>Financing</th><th>Registrations</th><th>Temp tags</th><th>Liens</th><th>Titles</th></tr></thead><tbody>
+      <tr><td><%= link_to vehicle.model, vehicle_path(vehicle), class: "text-ink-100 hover:text-champagne" %></td><td><%= vehicle.model_year %></td><td><%= number_with_delimiter(vehicle.weight_lbs) %> lbs</td><td><%= vehicle.financing.humanize %></td>
+        <td><%= vehicle.registrations.map { |record| record.status.humanize }.join(", ").presence || "—" %></td>
+        <td><%= vehicle.temp_tags.map { |record| record.tag_number }.join(", ").presence || "—" %></td>
+        <td><%= vehicle.lien_filings.map { |record| record.status.humanize }.join(", ").presence || "—" %></td>
+        <td><%= vehicle.title_applications.map { |record| record.application_number }.join(", ").presence || "—" %></td>
+      </tr>
+    </tbody></table></div>
+  <% end %>
+<% else %><p class="eyebrow mb-4 mt-12">Vehicles</p><div class="card"><p class="muted py-10 text-center text-sm">No records.</p></div><% end %>

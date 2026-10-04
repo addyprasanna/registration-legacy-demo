@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("inter-latin-wght-normal.woff2") format("woff2");
+}
+
+@layer base {
+  html { @apply bg-ink-950 text-ink-100 antialiased; }
+  body { @apply font-sans font-light; }
+  a { @apply transition-colors; }
+}
+
+@layer components {
+  .wordmark { @apply text-sm font-light uppercase tracking-wordmark text-ink-100; }
+  .eyebrow { @apply text-[11px] font-medium uppercase tracking-eyebrow text-champagne; }
+  .display { @apply text-4xl font-extralight tracking-tight text-ink-100 md:text-5xl; }
+  .heading { @apply text-2xl font-extralight tracking-tight text-ink-100; }
+  .lede { @apply max-w-2xl text-sm leading-relaxed text-ink-400; }
+  .muted { @apply text-ink-400; }
+
+  .nav-link { @apply text-[13px] font-light text-ink-300 hover:text-ink-100; }
+  .nav-link-active { @apply text-ink-100; }
+
+  .btn { @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-[11px] font-medium uppercase tracking-eyebrow transition-colors; }
+  .btn-primary { @apply btn bg-ink-100 text-ink-950 hover:bg-champagne-200; }
+  .btn-secondary { @apply btn border border-ink-600 text-ink-100 hover:border-ink-300; }
+  .btn-accent { @apply btn bg-champagne text-ink-950 hover:bg-champagne-200; }
+  .btn-link { @apply inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-eyebrow text-ink-100 hover:text-champagne; }
+
+  .card { @apply border border-ink-700 bg-ink-900; }
+  .card-body { @apply p-6 md:p-8; }
+  .panel-divider { @apply border-t border-ink-700; }
+
+  .stat-row { @apply grid grid-cols-2 divide-ink-700 border-y border-ink-700 md:grid-cols-4 md:divide-x; }
+  .stat { @apply px-6 py-8 text-center; }
+  .stat-label { @apply text-[10px] font-medium uppercase tracking-eyebrow text-champagne; }
+  .stat-value { @apply mt-2 text-3xl font-extralight text-ink-100; }
+  .stat-note { @apply mt-1 text-xs text-ink-400; }
+
+  .table { @apply w-full text-left text-sm; }
+  .table thead th { @apply border-b border-ink-700 px-4 py-3 text-[10px] font-medium uppercase tracking-eyebrow text-ink-400; }
+  .table tbody td { @apply border-b border-ink-800 px-4 py-4 font-light text-ink-300; }
+  .table tbody tr:hover td { @apply bg-ink-850; }
+  .table .num { @apply text-right tabular-nums; }
+
+  .badge { @apply inline-flex items-center px-2.5 py-1 text-[11px] font-normal; }
+  .badge-accent { @apply badge bg-champagne text-ink-950; }
+  .badge-muted { @apply badge bg-ink-700 text-ink-300; }
+  .badge-outline { @apply badge border border-ink-600 text-ink-300; }
+  .badge-danger { @apply badge border border-red-400/40 text-red-300; }
+
+  .label { @apply mb-2 block text-[10px] font-medium uppercase tracking-eyebrow text-ink-400; }
+  .input { @apply w-full border border-ink-600 bg-transparent px-4 py-3 text-sm font-light text-ink-100 placeholder-ink-500 focus:border-champagne focus:outline-none focus:ring-0; }
+  .select { @apply input appearance-none bg-ink-950; }
+  .checkbox { @apply h-4 w-4 border-ink-500 bg-transparent text-champagne focus:ring-0; }
+  .field-error { @apply mt-2 text-xs text-red-300; }
+
+  .flash { @apply border-l-2 border-champagne bg-ink-900 px-6 py-4 text-sm text-ink-100; }
+  .flash-alert { @apply border-l-2 border-red-400 bg-ink-900 px-6 py-4 text-sm text-ink-100; }
+
+  .dl-grid { @apply grid grid-cols-1 gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-3; }
+  .dl-grid dt { @apply text-[10px] font-medium uppercase tracking-eyebrow text-ink-400; }
+  .dl-grid dd { @apply mt-1 text-sm text-ink-100; }
+}

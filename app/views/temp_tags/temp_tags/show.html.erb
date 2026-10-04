@@ -1,0 +1,6 @@
+<% content_for :title, @temp_tag.tag_number %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between"><div><p class="eyebrow">Temporary operating permit</p><h1 class="display mt-3"><%= @temp_tag.tag_number %></h1><p class="lede mt-4"><%= @temp_tag.vehicle.vin %> · <%= @temp_tag.vehicle.customer.display_name %></p></div><div class="flex gap-3"><% if @temp_tag.status == "active" %><%= button_to "Void tag", void_temp_tag_path(@temp_tag), method: :post, class: "btn-secondary" %><% end %></div></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Status</dt><dd><%= status_badge(@temp_tag.status) %></dd></div><div><dt>Jurisdiction</dt><dd><%= jurisdiction_name(@temp_tag.jurisdiction_code) %></dd></div><div><dt>Issued</dt><dd><%= format_date(@temp_tag.issued_on) %></dd></div>
+  <div><dt>Valid days</dt><dd><%= @temp_tag.valid_days %></dd></div><div><dt>Expires</dt><dd><%= format_date(@temp_tag.expires_on) %></dd></div><div><dt>Vehicle</dt><dd><%= link_to @temp_tag.vehicle.model, vehicle_path(@temp_tag.vehicle), class: "hover:text-champagne" %></dd></div>
+</dl></div></div>

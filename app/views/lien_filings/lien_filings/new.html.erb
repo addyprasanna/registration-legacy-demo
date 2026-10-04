@@ -1,0 +1,6 @@
+<% content_for :title, "New lien determination" %>
+<section class="mb-12"><p class="eyebrow">Secured interests</p><h1 class="display mt-3">New lien determination</h1><p class="lede mt-4">Select a vehicle to determine and record the lien filing requirement.</p></section>
+<%= form_with url: lien_filings_path, method: :post, class: "card" do |form| %><div class="card-body"><div class="grid gap-6 md:grid-cols-2">
+  <div><%= form.label :vehicle_id, "Vehicle", class: "label" %><%= form.select :vehicle_id, options_from_collection_for_select(@vehicles, :id, ->(v) { "#{v.vin} · #{v.customer.display_name} · #{v.financing.humanize}" }), { prompt: "Select a vehicle" }, class: "select" %></div>
+  <div><%= form.label :buyer_jurisdiction, "Buyer jurisdiction (optional)", class: "label" %><%= form.select :buyer_jurisdiction, options_for_select([["Use vehicle jurisdiction", ""]] + Jurisdictions.codes.sort.map { |c| [c, c] }), {}, class: "select" %></div>
+</div><div class="mt-8 flex gap-3"><%= form.submit "Determine lien", class: "btn-primary" %><%= link_to "Cancel", lien_filings_path, class: "btn-secondary" %></div></div><% end %>

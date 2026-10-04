@@ -1,0 +1,9 @@
+<% content_for :title, @jurisdiction.display_name %>
+<section class="mb-12"><p class="eyebrow">Jurisdiction · <%= @jurisdiction.code %></p><h1 class="display mt-3"><%= @jurisdiction.display_name %></h1><p class="lede mt-4">Fee and filing configuration for this service jurisdiction.</p></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Tier</dt><dd><%= @jurisdiction.tier %></dd></div><div><dt>Country</dt><dd><%= @jurisdiction.country %></dd></div><div><dt>Currency</dt><dd><%= @jurisdiction.currency %></dd></div>
+  <div><dt>EV surcharge</dt><dd><%= format_money(@jurisdiction.const_defined?(:EV_SURCHARGE_CENTS) ? @jurisdiction.const_get(:EV_SURCHARGE_CENTS) : 0, @jurisdiction.currency) %></dd></div><div><dt>Temporary tag</dt><dd><%= @jurisdiction.const_get(:TEMP_TAG_DAYS) %> days</dd></div><div><dt>Electronic lien program</dt><dd><%= @jurisdiction.elt_available? ? "Available" : "Not available" %></dd></div>
+</dl></div></div>
+<p class="eyebrow mb-4 mt-12">Weight tiers</p><div class="card overflow-x-auto"><table class="table"><thead><tr><th>Weight band</th><th class="num">Registration amount</th></tr></thead><tbody>
+  <% previous = 0; @jurisdiction.weight_tiers.each do |maximum, amount| %><tr><td><%= maximum ? "#{number_with_delimiter(previous + 1)}–#{number_with_delimiter(maximum)} lbs" : "Over #{number_with_delimiter(previous)} lbs" %></td><td class="num"><%= format_money(amount, @jurisdiction.currency) %></td></tr><% previous = maximum || previous; end %>
+</tbody></table></div>

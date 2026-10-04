@@ -1,0 +1,3 @@
+<% content_for :title, "New customer" %>
+<section class="mb-12"><p class="eyebrow">Customer accounts</p><h1 class="display mt-3">New customer</h1><p class="lede mt-4">Create a customer profile for a vehicle owner.</p></section>
+<%= form_with model: @customer, url: customers_path, scope: :customer, class: "space-y-6" do |form| %><%= render "form", form: form, customer: @customer %><% end %>

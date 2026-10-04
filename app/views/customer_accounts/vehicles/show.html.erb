@@ -1,0 +1,27 @@
+<% content_for :title, @vehicle.vin %>
+<section class="mb-12"><p class="eyebrow"><%= link_to @vehicle.customer.display_name, customer_path(@vehicle.customer), class: "hover:text-ink-100" %> · Vehicle</p><h1 class="display mt-3"><%= @vehicle.model %></h1><p class="lede mt-4"><%= @vehicle.vin %> · <%= @vehicle.model_year %></p></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Jurisdiction</dt><dd><%= jurisdiction_name(@vehicle.jurisdiction_code) %></dd></div><div><dt>Weight</dt><dd><%= number_with_delimiter(@vehicle.weight_lbs) %> lbs</dd></div><div><dt>Purchase price</dt><dd><%= format_money(@vehicle.purchase_price_cents, Jurisdictions.for(@vehicle.jurisdiction_code).currency) %></dd></div>
+  <div><dt>Powertrain</dt><dd><%= @vehicle.powertrain.upcase %></dd></div><div><dt>Financing</dt><dd><%= @vehicle.financing.humanize %></dd></div><div><dt>Usage</dt><dd><%= @vehicle.usage.humanize %></dd></div>
+  <div><dt>Exterior color</dt><dd><%= @vehicle.exterior_color %></dd></div><div><dt>Delivery date</dt><dd><%= format_date(@vehicle.delivery_date) %></dd></div><div><dt>Lienholder</dt><dd><%= @vehicle.lienholder_name.presence || "—" %></dd></div>
+</dl></div></div>
+<p class="eyebrow mb-4 mt-12">Registration records</p><div class="card overflow-x-auto">
+  <% if @vehicle.registrations.any? %><table class="table"><thead><tr><th>Created</th><th>Status</th><th>Confirmation</th><th class="num">Total</th></tr></thead><tbody>
+    <% @vehicle.registrations.each do |registration| %><tr><td><%= link_to format_date(registration.created_at.to_date), registration_path(registration) %></td><td><%= status_badge(registration.status) %></td><td><%= registration.dmv_confirmation_number.presence || "—" %></td><td class="num"><%= format_money(registration.total_cents, registration.currency) %></td></tr><% end %>
+  </tbody></table><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div>
+<p class="eyebrow mb-4 mt-12">Temporary tags</p><div class="card overflow-x-auto">
+  <% if @vehicle.temp_tags.any? %><table class="table"><thead><tr><th>Tag</th><th>Issued</th><th>Expires</th><th>Status</th></tr></thead><tbody>
+    <% @vehicle.temp_tags.each do |tag| %><tr><td><%= link_to tag.tag_number, temp_tag_path(tag), class: "text-ink-100 hover:text-champagne" %></td><td><%= format_date(tag.issued_on) %></td><td><%= format_date(tag.expires_on) %></td><td><%= status_badge(tag.status) %></td></tr><% end %>
+  </tbody></table><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div>
+<p class="eyebrow mb-4 mt-12">Lien filings</p><div class="card overflow-x-auto">
+  <% if @vehicle.lien_filings.any? %><table class="table"><thead><tr><th>Created</th><th>Financing</th><th>Method</th><th>Status</th></tr></thead><tbody>
+    <% @vehicle.lien_filings.each do |filing| %><tr><td><%= link_to format_date(filing.created_at.to_date), lien_filing_path(filing) %></td><td><%= filing.financing.humanize %></td><td><%= filing.filing_method&.humanize || "—" %></td><td><%= status_badge(filing.status) %></td></tr><% end %>
+  </tbody></table><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div>
+<p class="eyebrow mb-4 mt-12">Title applications</p><div class="card overflow-x-auto">
+  <% if @vehicle.title_applications.any? %><table class="table"><thead><tr><th>Application</th><th>Status</th><th>Title number</th></tr></thead><tbody>
+    <% @vehicle.title_applications.each do |application| %><tr><td><%= link_to application.application_number, title_application_path(application), class: "text-ink-100 hover:text-champagne" %></td><td><%= status_badge(application.status) %></td><td><%= application.title_number.presence || "—" %></td></tr><% end %>
+  </tbody></table><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div>

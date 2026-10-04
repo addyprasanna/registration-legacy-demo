@@ -1,0 +1,7 @@
+<% content_for :title, "Lien filing #{@lien_filing.id}" %>
+<section class="mb-12"><p class="eyebrow">Secured interests · <%= @lien_filing.jurisdiction_code %></p><h1 class="display mt-3">Lien determination</h1><p class="lede mt-4"><%= @lien_filing.vehicle.vin %> · <%= @lien_filing.vehicle.customer.display_name %></p></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Status</dt><dd><%= status_badge(@lien_filing.status) %></dd></div><div><dt>Required</dt><dd><%= @lien_filing.required? ? "Yes" : "No" %></dd></div><div><dt>Filing method</dt><dd><%= @lien_filing.filing_method&.humanize || "—" %></dd></div>
+  <div><dt>Financing</dt><dd><%= @lien_filing.financing.humanize %></dd></div><div><dt>Lienholder</dt><dd><%= @lien_filing.lienholder_name.presence || "—" %></dd></div><div><dt>ELT participant</dt><dd><%= @lien_filing.elt_participant? ? "Yes" : "No" %></dd></div>
+  <div><dt>Reason</dt><dd><%= @lien_filing.reason %></dd></div>
+</dl></div></div>

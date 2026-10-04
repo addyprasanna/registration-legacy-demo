@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <title><%= content_for?(:title) ? "#{yield(:title)} · " : "" %>Lucid Vehicle Services</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+  </head>
+
+  <body class="min-h-full">
+    <div class="bg-champagne px-6 py-2 text-center text-xs font-normal text-ink-950">
+      Internal demo environment. DMV submissions are routed to a fake adapter; no external services are called.
+    </div>
+
+    <header class="border-b border-ink-800 bg-ink-950">
+      <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
+        <%= link_to root_path, class: "flex items-baseline gap-4" do %>
+          <span class="wordmark">Lucid</span>
+          <span class="hidden text-[11px] uppercase tracking-eyebrow text-ink-400 sm:inline">Vehicle Services</span>
+        <% end %>
+
+        <% nav_items = [
+             ["Registrations", registrations_path],
+             ["Temp Tags", temp_tags_path],
+             ["Lien Filings", lien_filings_path],
+             ["Titling", title_applications_path],
+             ["Dealer Portal", dealer_portal_deliveries_path],
+             ["Customers", customers_path],
+             ["Jurisdictions", jurisdictions_path]
+           ] %>
+        <nav class="hidden items-center gap-8 lg:flex">
+          <% nav_items.each do |label, path| %>
+            <%= link_to label, path, class: ["nav-link", ("nav-link-active" if current_page?(path) || request.path.start_with?(path))] %>
+          <% end %>
+        </nav>
+
+        <div class="flex items-center gap-6">
+          <span class="hidden text-[11px] uppercase tracking-eyebrow text-ink-400 md:inline">Ops · US / CA</span>
+          <span class="flex h-8 w-8 items-center justify-center border border-ink-600 text-[11px] text-ink-300">OP</span>
+          <details class="group relative lg:hidden">
+            <summary class="flex h-8 cursor-pointer list-none items-center border border-ink-600 px-3 text-[11px] uppercase tracking-eyebrow text-ink-100 hover:border-ink-300 [&::-webkit-details-marker]:hidden">
+              <span class="group-open:hidden">Menu</span><span class="hidden group-open:inline">Close</span>
+            </summary>
+            <nav class="absolute right-0 top-12 z-20 flex w-64 flex-col border border-ink-800 bg-ink-950 py-2 shadow-2xl">
+              <% nav_items.each do |label, path| %>
+                <%= link_to label, path, class: ["px-5 py-3 text-sm font-light text-ink-300 hover:bg-ink-900 hover:text-ink-100", ("text-ink-100" if request.path.start_with?(path))] %>
+              <% end %>
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-6 pb-24 pt-14 lg:px-10">
+      <% if notice.present? %><div class="flash mb-10"><%= notice %></div><% end %>
+      <% if alert.present? %><div class="flash-alert mb-10"><%= alert %></div><% end %>
+      <%= yield %>
+    </main>
+
+    <footer class="border-t border-ink-800">
+      <div class="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-8 text-xs text-ink-500 sm:flex-row sm:justify-between lg:px-10">
+        <span>lucid-vehicle-services · registration &amp; titling platform</span>
+        <span>Fictional rules for demonstration only</span>
+      </div>
+    </footer>
+  </body>
+</html>

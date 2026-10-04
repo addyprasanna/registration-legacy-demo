@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "rq_000001",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 16633,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-02-11",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 16633
+    }
+  },
+  {
+    "id": "rq_000002",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 10574,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-02-27",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 10574
+    }
+  },
+  {
+    "id": "rq_000003",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2019-03-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000004",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15367,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-02-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 15367
+    }
+  },
+  {
+    "id": "rq_000005",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 53763,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-03-23",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 61263
+    }
+  },
+  {
+    "id": "rq_000006",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2019-05-19",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000007",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 329591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2019-04-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 334591
+    }
+  },
+  {
+    "id": "rq_000008",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2019-05-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000009",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 160841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2019-04-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 165841
+    }
+  },
+  {
+    "id": "rq_000010",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43721,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2019-04-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 51221
+    }
+  },
+  {
+    "id": "rq_000011",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2019-06-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000012",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2019-07-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000013",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 262091,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2019-07-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 267091
+    }
+  },
+  {
+    "id": "rq_000014",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2019-08-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000015",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2019-08-02",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000016",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2019-11-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000017",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2019-09-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000018",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 46638,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2019-09-14",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 54138
+    }
+  },
+  {
+    "id": "rq_000019",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2019-11-21",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000020",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15883,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-10-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 15883
+    }
+  },
+  {
+    "id": "rq_000021",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 34426,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-10-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 41926
+    }
+  },
+  {
+    "id": "rq_000022",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 16760,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2019-11-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16760
+    }
+  },
+  {
+    "id": "rq_000023",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-01-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000024",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 345938,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2019-12-25",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 350938
+    }
+  },
+  {
+    "id": "rq_000025",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 152029,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2019-12-26",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 157029
+    }
+  },
+  {
+    "id": "rq_000026",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 150365,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-01-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 155365
+    }
+  },
+  {
+    "id": "rq_000027",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11401,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-02-26",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 11401
+    }
+  },
+  {
+    "id": "rq_000028",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 396192,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-03-14",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 401192
+    }
+  },
+  {
+    "id": "rq_000029",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000030",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000031",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-05",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000032",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 431554,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-03-14",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 436554
+    }
+  },
+  {
+    "id": "rq_000033",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000034",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-14",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000035",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2020-03-20",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000036",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2020-03-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000037",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 25024,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 32524
+    }
+  },
+  {
+    "id": "rq_000038",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11401,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 11401
+    }
+  },
+  {
+    "id": "rq_000039",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-05-20",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000040",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15860,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 15860
+    }
+  },
+  {
+    "id": "rq_000041",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 362869,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-03-27",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 367869
+    }
+  },
+  {
+    "id": "rq_000042",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-05-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000043",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-05-10",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000044",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43746,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2020-02-16",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 51246
+    }
+  },
+  {
+    "id": "rq_000045",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000046",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000047",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 50471,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2020-02-21",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 57971
+    }
+  },
+  {
+    "id": "rq_000048",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000049",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000050",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 388825,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-03-29",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 393825
+    }
+  },
+  {
+    "id": "rq_000051",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-20",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000052",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000053",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-20",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000054",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000055",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8726,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 8726
+    }
+  },
+  {
+    "id": "rq_000056",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 250185,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-03-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 255185
+    }
+  },
+  {
+    "id": "rq_000057",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6101,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-20",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 6101
+    }
+  },
+  {
+    "id": "rq_000058",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9604,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 9604
+    }
+  },
+  {
+    "id": "rq_000059",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-05-21",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000060",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000061",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 24537,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-03-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 32037
+    }
+  },
+  {
+    "id": "rq_000062",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-28",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000063",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-04-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000064",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2020-05-16",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000065",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 160841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-05-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 165841
+    }
+  },
+  {
+    "id": "rq_000066",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-06-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000067",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-07-20",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000068",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 137491,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-07-17",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 142491
+    }
+  },
+  {
+    "id": "rq_000069",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14901,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-07-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 14901
+    }
+  },
+  {
+    "id": "rq_000070",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 396852,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-07-14",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 401852
+    }
+  },
+  {
+    "id": "rq_000071",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 23026,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2020-07-10",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 30526
+    }
+  },
+  {
+    "id": "rq_000072",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-10-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000073",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2020-08-22",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000074",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 430841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-09-18",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 435841
+    }
+  },
+  {
+    "id": "rq_000075",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7444,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2020-10-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 7444
+    }
+  },
+  {
+    "id": "rq_000076",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 281966,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2020-10-16",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 286966
+    }
+  },
+  {
+    "id": "rq_000077",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 31571,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2020-10-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 39071
+    }
+  },
+  {
+    "id": "rq_000078",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2020-12-21",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000079",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-01-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000080",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 35160,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2020-11-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 42660
+    }
+  },
+  {
+    "id": "rq_000081",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2021-03-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000082",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-02-26",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000083",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7444,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-02-12",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 7444
+    }
+  },
+  {
+    "id": "rq_000084",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-02-21",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000085",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 301249,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2021-03-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 306249
+    }
+  },
+  {
+    "id": "rq_000086",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 39492,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-03-30",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 46992
+    }
+  },
+  {
+    "id": "rq_000087",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11012,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-03-31",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 11012
+    }
+  },
+  {
+    "id": "rq_000088",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-07-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000089",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-07-12",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000090",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 41176,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-05-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 48676
+    }
+  },
+  {
+    "id": "rq_000091",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 24493,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2021-05-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 31993
+    }
+  },
+  {
+    "id": "rq_000092",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 58316,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-05-25",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 65816
+    }
+  },
+  {
+    "id": "rq_000093",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-07-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000094",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-07-07",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000095",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 257403,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2021-06-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 262403
+    }
+  },
+  {
+    "id": "rq_000096",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 54772,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2021-05-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 62272
+    }
+  },
+  {
+    "id": "rq_000097",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-08-20",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000098",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9600,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-08-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 24600
+    }
+  },
+  {
+    "id": "rq_000099",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-07-28",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000100",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 140591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2021-07-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 145591
+    }
+  },
+  {
+    "id": "rq_000101",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8420,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-08-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 8420
+    }
+  },
+  {
+    "id": "rq_000102",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-09-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000103",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 57221,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-08-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 64721
+    }
+  },
+  {
+    "id": "rq_000104",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2021-10-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000105",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2021-09-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000106",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 241443,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2021-09-10",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 246443
+    }
+  },
+  {
+    "id": "rq_000107",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 34426,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2021-08-22",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 41926
+    }
+  },
+  {
+    "id": "rq_000108",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-11-30",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000109",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7692,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-10-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 7692
+    }
+  },
+  {
+    "id": "rq_000110",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 347640,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2021-10-27",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 352640
+    }
+  },
+  {
+    "id": "rq_000111",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2021-11-12",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000112",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14004,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-11-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 14004
+    }
+  },
+  {
+    "id": "rq_000113",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2021-12-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000114",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7444,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-10-23",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 7444
+    }
+  },
+  {
+    "id": "rq_000115",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 26396,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2021-11-12",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 33896
+    }
+  },
+  {
+    "id": "rq_000116",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2022-01-31",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000117",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 39862,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2021-12-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 47362
+    }
+  },
+  {
+    "id": "rq_000118",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2022-02-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000119",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43651,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2022-01-31",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 51151
+    }
+  },
+  {
+    "id": "rq_000120",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 312716,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2022-03-10",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 317716
+    }
+  },
+  {
+    "id": "rq_000121",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2022-03-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000122",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 36971,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-03-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 44471
+    }
+  },
+  {
+    "id": "rq_000123",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2022-03-31",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000124",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15432,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-03-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 15432
+    }
+  },
+  {
+    "id": "rq_000125",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 57515,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2022-03-31",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 65015
+    }
+  },
+  {
+    "id": "rq_000126",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-04-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000127",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 39591,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2022-04-11",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 47091
+    }
+  },
+  {
+    "id": "rq_000128",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 169312,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2022-05-22",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 174312
+    }
+  },
+  {
+    "id": "rq_000129",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 16355,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-05-21",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 16355
+    }
+  },
+  {
+    "id": "rq_000130",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2022-07-16",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000131",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8386,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-06-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 8386
+    }
+  },
+  {
+    "id": "rq_000132",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2022-07-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000133",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2022-09-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000134",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 306439,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2022-08-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 311439
+    }
+  },
+  {
+    "id": "rq_000135",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2022-09-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000136",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2022-10-22",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000137",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 187841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2022-09-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 192841
+    }
+  },
+  {
+    "id": "rq_000138",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 32748,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-10-10",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 40248
+    }
+  },
+  {
+    "id": "rq_000139",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 32471,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2022-10-11",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 39971
+    }
+  },
+  {
+    "id": "rq_000140",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9600,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2022-11-12",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 24600
+    }
+  },
+  {
+    "id": "rq_000141",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9424,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-10-26",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 9424
+    }
+  },
+  {
+    "id": "rq_000142",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 332591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2022-11-26",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 337591
+    }
+  },
+  {
+    "id": "rq_000143",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-01-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000144",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2022-12-27",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000145",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15378,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2022-12-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 15378
+    }
+  },
+  {
+    "id": "rq_000146",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-02-16",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000147",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-03-15",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000148",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 10914,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-01-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 10914
+    }
+  },
+  {
+    "id": "rq_000149",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2023-02-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000150",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 10327,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-02-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 10327
+    }
+  },
+  {
+    "id": "rq_000151",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14884,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-01-31",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 14884
+    }
+  },
+  {
+    "id": "rq_000152",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-04-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000153",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2023-04-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000154",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2023-04-28",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000155",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2023-04-28",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000156",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8747,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-05-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 8747
+    }
+  },
+  {
+    "id": "rq_000157",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 62141,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2023-05-23",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 69641
+    }
+  },
+  {
+    "id": "rq_000158",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2023-06-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000159",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2023-07-12",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000160",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-09-19",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000161",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2023-09-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000162",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2023-10-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000163",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2023-09-23",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000164",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2023-10-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000165",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6122,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-09-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 6122
+    }
+  },
+  {
+    "id": "rq_000166",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14024,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-09-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 14024
+    }
+  },
+  {
+    "id": "rq_000167",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 181900,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2023-10-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 186900
+    }
+  },
+  {
+    "id": "rq_000168",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 404462,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2023-11-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 409462
+    }
+  },
+  {
+    "id": "rq_000169",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9444,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2023-10-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 9444
+    }
+  },
+  {
+    "id": "rq_000170",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 329591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2023-11-19",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 334591
+    }
+  },
+  {
+    "id": "rq_000171",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2023-12-18",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000172",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 437733,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2023-12-10",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 442733
+    }
+  },
+  {
+    "id": "rq_000173",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2024-02-16",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000174",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2024-03-05",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000175",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15850,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-01-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 15850
+    }
+  },
+  {
+    "id": "rq_000176",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14276,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-02-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 14276
+    }
+  },
+  {
+    "id": "rq_000177",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 48144,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-01-14",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 55644
+    }
+  },
+  {
+    "id": "rq_000178",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-02-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000179",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-03-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000180",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000181",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8759,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 8759
+    }
+  },
+  {
+    "id": "rq_000182",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000183",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000184",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 28341,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-02-22",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 35841
+    }
+  },
+  {
+    "id": "rq_000185",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43475,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-05",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 50975
+    }
+  },
+  {
+    "id": "rq_000186",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-03-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000187",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 48284,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-02-16",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 55784
+    }
+  },
+  {
+    "id": "rq_000188",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-03-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000189",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 190841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-03-19",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 195841
+    }
+  },
+  {
+    "id": "rq_000190",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000191",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000192",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-03-18",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000193",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-03-23",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000194",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000195",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000196",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-04-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000197",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 275866,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-04-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 280866
+    }
+  },
+  {
+    "id": "rq_000198",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-29",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000199",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-16",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000200",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2024-05-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000201",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000202",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9731,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-24",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 9731
+    }
+  },
+  {
+    "id": "rq_000203",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7887,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-21",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 7887
+    }
+  },
+  {
+    "id": "rq_000204",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-03-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000205",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000206",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-28",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000207",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 25485,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-03-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 32985
+    }
+  },
+  {
+    "id": "rq_000208",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000209",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-04-29",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000210",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-04-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000211",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 54676,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-03-28",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 62176
+    }
+  },
+  {
+    "id": "rq_000212",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-05-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000213",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9600,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-05-26",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 24600
+    }
+  },
+  {
+    "id": "rq_000214",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 228341,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-06-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 233341
+    }
+  },
+  {
+    "id": "rq_000215",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-06-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000216",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 24754,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-04-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 32254
+    }
+  },
+  {
+    "id": "rq_000217",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 14004,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-06-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 14004
+    }
+  },
+  {
+    "id": "rq_000218",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 321131,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-06-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 326131
+    }
+  },
+  {
+    "id": "rq_000219",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2024-09-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000220",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-08-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000221",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 183540,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-07-11",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 188540
+    }
+  },
+  {
+    "id": "rq_000222",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 38561,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-06-22",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 46061
+    }
+  },
+  {
+    "id": "rq_000223",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 36996,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2024-06-27",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 44496
+    }
+  },
+  {
+    "id": "rq_000224",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 23167,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-08-05",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 30667
+    }
+  },
+  {
+    "id": "rq_000225",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 59481,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-08-05",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 66981
+    }
+  },
+  {
+    "id": "rq_000226",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-08-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000227",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 349220,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-08-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 354220
+    }
+  },
+  {
+    "id": "rq_000228",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-10-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000229",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-09-30",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000230",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2024-12-14",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000231",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2024-11-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000232",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 63971,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2024-11-02",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 71471
+    }
+  },
+  {
+    "id": "rq_000233",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-01-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000234",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2024-12-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000235",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 359578,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2024-12-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 364578
+    }
+  },
+  {
+    "id": "rq_000236",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-02-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000237",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2025-02-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000238",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-03-23",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000239",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 44230,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-02-02",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 51730
+    }
+  },
+  {
+    "id": "rq_000240",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2025-03-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000241",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-03-29",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000242",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-05-31",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000243",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5850,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2025-04-08",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 20850
+    }
+  },
+  {
+    "id": "rq_000244",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7410,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-04-09",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 7410
+    }
+  },
+  {
+    "id": "rq_000245",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43746,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-04-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 51246
+    }
+  },
+  {
+    "id": "rq_000246",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 32176,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-04-25",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 39676
+    }
+  },
+  {
+    "id": "rq_000247",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 290138,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2025-05-24",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 295138
+    }
+  },
+  {
+    "id": "rq_000248",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 45676,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-05-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 53176
+    }
+  },
+  {
+    "id": "rq_000249",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15090,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-06-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 15090
+    }
+  },
+  {
+    "id": "rq_000250",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15363,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-06-06",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 15363
+    }
+  },
+  {
+    "id": "rq_000251",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9410,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-06-20",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 9410
+    }
+  },
+  {
+    "id": "rq_000252",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-09-07",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000253",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-09-04",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000254",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8216,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-07-05",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 8216
+    }
+  },
+  {
+    "id": "rq_000255",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-10-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000256",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 16351,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-08-07",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16351
+    }
+  },
+  {
+    "id": "rq_000257",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-09-23",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000258",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 197591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2025-09-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 202591
+    }
+  },
+  {
+    "id": "rq_000259",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 42167,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-09-06",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 49667
+    }
+  },
+  {
+    "id": "rq_000260",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 59109,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2025-08-15",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 66609
+    }
+  },
+  {
+    "id": "rq_000261",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2025-10-16",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000262",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-12-02",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000263",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2025-12-03",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000264",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 213523,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2025-10-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 218523
+    }
+  },
+  {
+    "id": "rq_000265",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 43760,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-10-29",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 51260
+    }
+  },
+  {
+    "id": "rq_000266",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 34746,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2025-10-15",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 42246
+    }
+  },
+  {
+    "id": "rq_000267",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 160841,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2025-11-01",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 165841
+    }
+  },
+  {
+    "id": "rq_000268",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-01-20",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000269",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2025-12-22",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000270",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 36268,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2025-11-26",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 43768
+    }
+  },
+  {
+    "id": "rq_000271",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 57172,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2025-12-09",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 64672
+    }
+  },
+  {
+    "id": "rq_000272",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-02-23",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000273",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7410,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2026-01-02",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 7410
+    }
+  },
+  {
+    "id": "rq_000274",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-02-26",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000275",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-03-08",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000276",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 57217,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2026-01-22",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 64717
+    }
+  },
+  {
+    "id": "rq_000277",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-02-13",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000278",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9600,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-02-21",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 24600
+    }
+  },
+  {
+    "id": "rq_000279",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-02-17",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000280",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 15000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-04-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25000
+    }
+  },
+  {
+    "id": "rq_000281",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 11000,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-05-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 21000
+    }
+  },
+  {
+    "id": "rq_000282",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-04-03",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000283",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 23851,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2026-02-13",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 31351
+    }
+  },
+  {
+    "id": "rq_000284",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6250,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2026-04-26",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 26250
+    }
+  },
+  {
+    "id": "rq_000285",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 278966,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2026-04-05",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 283966
+    }
+  },
+  {
+    "id": "rq_000286",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-04-30",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000287",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7300,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-05-08",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 22300
+    }
+  },
+  {
+    "id": "rq_000288",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 6500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-07-15",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 16500
+    }
+  },
+  {
+    "id": "rq_000289",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 57118,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2026-05-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 64618
+    }
+  },
+  {
+    "id": "rq_000290",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 35249,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 10,
+      "temp_tag_expires_on": "2026-05-19",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 42749
+    }
+  },
+  {
+    "id": "rq_000291",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 4500,
+      "ev_surcharge_cents": 15000,
+      "temp_tag_valid_days": 45,
+      "temp_tag_expires_on": "2026-07-23",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 19500
+    }
+  },
+  {
+    "id": "rq_000292",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 5075,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2026-08-08",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 25075
+    }
+  },
+  {
+    "id": "rq_000293",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 48630,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2026-07-05",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 56130
+    }
+  },
+  {
+    "id": "rq_000294",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 9410,
+      "ev_surcharge_cents": 0,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2026-08-04",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 9410
+    }
+  },
+  {
+    "id": "rq_000295",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 8500,
+      "ev_surcharge_cents": 10000,
+      "temp_tag_valid_days": 90,
+      "temp_tag_expires_on": "2026-10-25",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 18500
+    }
+  },
+  {
+    "id": "rq_000296",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 7825,
+      "ev_surcharge_cents": 20000,
+      "temp_tag_valid_days": 60,
+      "temp_tag_expires_on": "2026-10-02",
+      "lien_filing_required": false,
+      "lien_filing_method": null,
+      "total_cents": 27825
+    }
+  },
+  {
+    "id": "rq_000297",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 36151,
+      "ev_surcharge_cents": 7500,
+      "temp_tag_valid_days": 30,
+      "temp_tag_expires_on": "2026-09-23",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 43651
+    }
+  },
+  {
+    "id": "rq_000298",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 178200,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2026-10-13",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 183200
+    }
+  },
+  {
+    "id": "rq_000299",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 329591,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2026-11-01",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 334591
+    }
+  },
+  {
+    "id": "rq_000300",
+    "status": 200,
+    "body": {
+      "registration_fee_cents": 356085,
+      "ev_surcharge_cents": 5000,
+      "temp_tag_valid_days": 40,
+      "temp_tag_expires_on": "2026-11-09",
+      "lien_filing_required": true,
+      "lien_filing_method": "electronic",
+      "total_cents": 361085
+    }
+  }
+]

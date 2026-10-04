@@ -1,0 +1,10 @@
+<% content_for :title, "Registration #{@registration.id}" %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between"><div><p class="eyebrow">Registration · <%= @registration.jurisdiction_code %></p><h1 class="display mt-3"><%= @registration.vehicle.model %></h1><p class="lede mt-4"><%= @registration.vehicle.vin %> · <%= @registration.vehicle.customer.display_name %></p></div><div class="flex gap-3"><% if @registration.status == "draft" %><%= button_to "Submit to DMV", submit_registration_path(@registration), method: :post, class: "btn-primary" %><% end %></div></section>
+<div class="card"><div class="card-body"><dl class="dl-grid">
+  <div><dt>Status</dt><dd><%= status_badge(@registration.status) %></dd></div><div><dt>Jurisdiction</dt><dd><%= jurisdiction_name(@registration.jurisdiction_code) %></dd></div><div><dt>Customer</dt><dd><%= link_to @registration.vehicle.customer.display_name, customer_path(@registration.vehicle.customer), class: "hover:text-champagne" %></dd></div>
+  <div><dt>Submitted</dt><dd><%= @registration.submitted_at ? format_date(@registration.submitted_at.to_date) : "—" %></dd></div><div><dt>DMV confirmation</dt><dd><%= @registration.dmv_confirmation_number.presence || "—" %></dd></div><div><dt>Currency</dt><dd><%= @registration.currency %></dd></div>
+</dl></div></div>
+<p class="eyebrow mb-4 mt-12">Fee breakdown</p><div class="card overflow-x-auto"><table class="table"><thead><tr><th>Fee</th><th>Code</th><th class="num">Amount</th></tr></thead><tbody>
+  <% line_items_for(@registration).each do |item| %><tr><td><%= item[:label] %></td><td><%= item[:code] %></td><td class="num"><%= format_money(item[:amount_cents], @registration.currency) %></td></tr><% end %>
+  <tr><td colspan="2" class="text-ink-100">Total</td><td class="num text-ink-100"><%= format_money(@registration.total_cents, @registration.currency) %></td></tr>
+</tbody></table></div>

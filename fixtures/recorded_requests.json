@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "rq_000001",
+    "recorded_at": "2019-01-07T14:16:03Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6958,
+      "vehicle_price_usd": 45071.5,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2019-01-13"
+    }
+  },
+  {
+    "id": "rq_000002",
+    "recorded_at": "2019-01-14T21:40:59Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4362,
+      "vehicle_price_usd": 128178.82,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2019-01-29"
+    }
+  },
+  {
+    "id": "rq_000003",
+    "recorded_at": "2019-01-18T15:51:31Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5000,
+      "vehicle_price_usd": 69998.66,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2019-02-02"
+    }
+  },
+  {
+    "id": "rq_000004",
+    "recorded_at": "2019-01-23T22:41:42Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6020,
+      "vehicle_price_usd": 51914.56,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2019-01-30"
+    }
+  },
+  {
+    "id": "rq_000005",
+    "recorded_at": "2019-02-05T20:41:48Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 2988,
+      "vehicle_price_usd": 112251,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2019-02-21"
+    }
+  },
+  {
+    "id": "rq_000006",
+    "recorded_at": "2019-02-16T21:45:15Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6463,
+      "vehicle_price_usd": 44990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2019-02-18"
+    }
+  },
+  {
+    "id": "rq_000007",
+    "recorded_at": "2019-03-01T22:00:08Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5288,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2019-03-15"
+    }
+  },
+  {
+    "id": "rq_000008",
+    "recorded_at": "2019-03-12T22:36:10Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 98603.07,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2019-03-29"
+    }
+  },
+  {
+    "id": "rq_000009",
+    "recorded_at": "2019-03-15T17:38:02Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 44990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2019-03-21"
+    }
+  },
+  {
+    "id": "rq_000010",
+    "recorded_at": "2019-03-19T20:51:28Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5510,
+      "vehicle_price_usd": 79990,
+      "financed": false,
+      "buyer_state": "MA",
+      "delivery_date": "2019-03-25"
+    }
+  },
+  {
+    "id": "rq_000011",
+    "recorded_at": "2019-04-30T14:10:33Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6490,
+      "vehicle_price_usd": 52990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2019-05-03"
+    }
+  },
+  {
+    "id": "rq_000012",
+    "recorded_at": "2019-05-04T18:51:58Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5975,
+      "vehicle_price_usd": 39165,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2019-05-19"
+    }
+  },
+  {
+    "id": "rq_000013",
+    "recorded_at": "2019-05-17T16:32:35Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 4948,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2019-05-30"
+    }
+  },
+  {
+    "id": "rq_000014",
+    "recorded_at": "2019-05-22T18:49:36Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3427,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2019-05-31"
+    }
+  },
+  {
+    "id": "rq_000015",
+    "recorded_at": "2019-06-06T21:09:48Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6475,
+      "vehicle_price_usd": 99287.0,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2019-06-18"
+    }
+  },
+  {
+    "id": "rq_000016",
+    "recorded_at": "2019-07-28T16:22:31Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3242,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2019-08-11"
+    }
+  },
+  {
+    "id": "rq_000017",
+    "recorded_at": "2019-08-07T17:04:31Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4999,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "IL",
+      "delivery_date": "2019-08-16"
+    }
+  },
+  {
+    "id": "rq_000018",
+    "recorded_at": "2019-08-14T21:45:00Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5490,
+      "vehicle_price_usd": 92129,
+      "financed": true,
+      "buyer_state": "PA",
+      "delivery_date": "2019-09-04"
+    }
+  },
+  {
+    "id": "rq_000019",
+    "recorded_at": "2019-08-19T21:45:42Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6469,
+      "vehicle_price_usd": 79010.42,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2019-08-23"
+    }
+  },
+  {
+    "id": "rq_000020",
+    "recorded_at": "2019-08-29T21:03:24Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6402,
+      "vehicle_price_usd": 47500,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2019-09-10"
+    }
+  },
+  {
+    "id": "rq_000021",
+    "recorded_at": "2019-09-10T18:32:25Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 4620,
+      "vehicle_price_usd": 64990,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2019-09-24"
+    }
+  },
+  {
+    "id": "rq_000022",
+    "recorded_at": "2019-09-24T20:52:46Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 7052,
+      "vehicle_price_usd": 124391.17,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2019-10-11"
+    }
+  },
+  {
+    "id": "rq_000023",
+    "recorded_at": "2019-10-17T22:26:31Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3757,
+      "vehicle_price_usd": 92982.5,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2019-11-05"
+    }
+  },
+  {
+    "id": "rq_000024",
+    "recorded_at": "2019-10-25T21:53:25Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3206,
+      "vehicle_price_usd": 100751.96,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2019-11-15"
+    }
+  },
+  {
+    "id": "rq_000025",
+    "recorded_at": "2019-11-02T18:18:58Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5510,
+      "vehicle_price_usd": 41490,
+      "financed": false,
+      "buyer_state": "MI",
+      "delivery_date": "2019-11-16"
+    }
+  },
+  {
+    "id": "rq_000026",
+    "recorded_at": "2019-12-11T20:46:04Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5501,
+      "vehicle_price_usd": 40997,
+      "financed": true,
+      "buyer_state": "MI",
+      "delivery_date": "2019-12-15"
+    }
+  },
+  {
+    "id": "rq_000027",
+    "recorded_at": "2020-01-10T23:10:30Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4975,
+      "vehicle_price_usd": 121751,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2020-01-28"
+    }
+  },
+  {
+    "id": "rq_000028",
+    "recorded_at": "2020-01-13T18:29:49Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 2743,
+      "vehicle_price_usd": 115642,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2020-02-03"
+    }
+  },
+  {
+    "id": "rq_000029",
+    "recorded_at": "2020-01-16T23:57:22Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-06"
+    }
+  },
+  {
+    "id": "rq_000030",
+    "recorded_at": "2020-01-17T23:58:36Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3975,
+      "vehicle_price_usd": 63915,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-03"
+    }
+  },
+  {
+    "id": "rq_000031",
+    "recorded_at": "2020-01-20T20:12:51Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6796,
+      "vehicle_price_usd": 54990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2020-02-04"
+    }
+  },
+  {
+    "id": "rq_000032",
+    "recorded_at": "2020-01-21T22:49:41Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 6700,
+      "vehicle_price_usd": 124312.32,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2020-02-03"
+    }
+  },
+  {
+    "id": "rq_000033",
+    "recorded_at": "2020-01-25T23:30:58Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6841,
+      "vehicle_price_usd": 61683.51,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-04"
+    }
+  },
+  {
+    "id": "rq_000034",
+    "recorded_at": "2020-01-26T22:13:41Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5975,
+      "vehicle_price_usd": 54340.54,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-14"
+    }
+  },
+  {
+    "id": "rq_000035",
+    "recorded_at": "2020-01-26T18:31:46Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 2950,
+      "vehicle_price_usd": 85127,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2020-02-04"
+    }
+  },
+  {
+    "id": "rq_000036",
+    "recorded_at": "2020-01-28T15:56:42Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 111215,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2020-02-13"
+    }
+  },
+  {
+    "id": "rq_000037",
+    "recorded_at": "2020-01-28T14:22:27Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3182,
+      "vehicle_price_usd": 48386.5,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2020-02-02"
+    }
+  },
+  {
+    "id": "rq_000038",
+    "recorded_at": "2020-01-29T14:44:46Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4975,
+      "vehicle_price_usd": 89990,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2020-02-04"
+    }
+  },
+  {
+    "id": "rq_000039",
+    "recorded_at": "2020-02-01T18:55:50Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4510,
+      "vehicle_price_usd": 113999.41,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2020-02-20"
+    }
+  },
+  {
+    "id": "rq_000040",
+    "recorded_at": "2020-02-01T21:28:33Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6385,
+      "vehicle_price_usd": 77323,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2020-02-13"
+    }
+  },
+  {
+    "id": "rq_000041",
+    "recorded_at": "2020-02-01T18:48:02Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 2855,
+      "vehicle_price_usd": 105768.71,
+      "financed": false,
+      "buyer_state": "MI",
+      "delivery_date": "2020-02-16"
+    }
+  },
+  {
+    "id": "rq_000042",
+    "recorded_at": "2020-02-03T18:09:10Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2975,
+      "vehicle_price_usd": 94990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2020-02-13"
+    }
+  },
+  {
+    "id": "rq_000043",
+    "recorded_at": "2020-02-04T20:59:46Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5930,
+      "vehicle_price_usd": 93703,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2020-02-10"
+    }
+  },
+  {
+    "id": "rq_000044",
+    "recorded_at": "2020-02-04T22:28:35Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 89990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2020-02-06"
+    }
+  },
+  {
+    "id": "rq_000045",
+    "recorded_at": "2020-02-05T17:20:24Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5362,
+      "vehicle_price_usd": 124990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-15"
+    }
+  },
+  {
+    "id": "rq_000046",
+    "recorded_at": "2020-02-05T19:54:44Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3149,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "OR",
+      "delivery_date": "2020-02-18"
+    }
+  },
+  {
+    "id": "rq_000047",
+    "recorded_at": "2020-02-07T23:30:13Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5525,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "PA",
+      "delivery_date": "2020-02-11"
+    }
+  },
+  {
+    "id": "rq_000048",
+    "recorded_at": "2020-02-07T19:19:44Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4476,
+      "vehicle_price_usd": 89775,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-28"
+    }
+  },
+  {
+    "id": "rq_000049",
+    "recorded_at": "2020-02-07T16:14:45Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5990,
+      "vehicle_price_usd": 69990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2020-02-26"
+    }
+  },
+  {
+    "id": "rq_000050",
+    "recorded_at": "2020-02-08T20:22:36Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3299,
+      "vehicle_price_usd": 113459.22,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2020-02-18"
+    }
+  },
+  {
+    "id": "rq_000051",
+    "recorded_at": "2020-02-08T22:42:52Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 2819,
+      "vehicle_price_usd": 44990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-20"
+    }
+  },
+  {
+    "id": "rq_000052",
+    "recorded_at": "2020-02-09T14:54:23Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 115070.49,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-27"
+    }
+  },
+  {
+    "id": "rq_000053",
+    "recorded_at": "2020-02-10T23:24:31Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4001,
+      "vehicle_price_usd": 90561,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-20"
+    }
+  },
+  {
+    "id": "rq_000054",
+    "recorded_at": "2020-02-10T20:20:56Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4552,
+      "vehicle_price_usd": 76927,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-29"
+    }
+  },
+  {
+    "id": "rq_000055",
+    "recorded_at": "2020-02-15T17:19:47Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3475,
+      "vehicle_price_usd": 86394.31,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-02-27"
+    }
+  },
+  {
+    "id": "rq_000056",
+    "recorded_at": "2020-02-15T19:31:54Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 4148,
+      "vehicle_price_usd": 71462.25,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2020-02-17"
+    }
+  },
+  {
+    "id": "rq_000057",
+    "recorded_at": "2020-02-17T23:09:14Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2475,
+      "vehicle_price_usd": 64990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-02-20"
+    }
+  },
+  {
+    "id": "rq_000058",
+    "recorded_at": "2020-02-18T18:14:31Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3644,
+      "vehicle_price_usd": 90024,
+      "financed": true,
+      "buyer_state": "NV",
+      "delivery_date": "2020-02-25"
+    }
+  },
+  {
+    "id": "rq_000059",
+    "recorded_at": "2020-02-19T15:23:59Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4475,
+      "vehicle_price_usd": 87691.01,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2020-02-21"
+    }
+  },
+  {
+    "id": "rq_000060",
+    "recorded_at": "2020-02-21T21:02:12Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5638,
+      "vehicle_price_usd": 46728,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-28"
+    }
+  },
+  {
+    "id": "rq_000061",
+    "recorded_at": "2020-02-23T21:49:25Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5490,
+      "vehicle_price_usd": 43016.63,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2020-02-29"
+    }
+  },
+  {
+    "id": "rq_000062",
+    "recorded_at": "2020-02-24T14:25:14Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5999,
+      "vehicle_price_usd": 117526,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-28"
+    }
+  },
+  {
+    "id": "rq_000063",
+    "recorded_at": "2020-02-27T17:50:32Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4913,
+      "vehicle_price_usd": 74352,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2020-02-29"
+    }
+  },
+  {
+    "id": "rq_000064",
+    "recorded_at": "2020-03-04T19:46:17Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5109,
+      "vehicle_price_usd": 52990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-03-17"
+    }
+  },
+  {
+    "id": "rq_000065",
+    "recorded_at": "2020-03-09T17:47:47Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3301,
+      "vehicle_price_usd": 44990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2020-03-25"
+    }
+  },
+  {
+    "id": "rq_000066",
+    "recorded_at": "2020-03-21T21:36:54Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2841,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-04-01"
+    }
+  },
+  {
+    "id": "rq_000067",
+    "recorded_at": "2020-04-05T14:22:21Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3267,
+      "vehicle_price_usd": 89990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2020-04-21"
+    }
+  },
+  {
+    "id": "rq_000068",
+    "recorded_at": "2020-05-17T18:30:04Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 2981,
+      "vehicle_price_usd": 38990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2020-06-07"
+    }
+  },
+  {
+    "id": "rq_000069",
+    "recorded_at": "2020-05-18T23:21:12Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5675,
+      "vehicle_price_usd": 109599,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-06-07"
+    }
+  },
+  {
+    "id": "rq_000070",
+    "recorded_at": "2020-05-31T18:31:16Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5490,
+      "vehicle_price_usd": 114919,
+      "financed": true,
+      "buyer_state": "BC",
+      "delivery_date": "2020-06-04"
+    }
+  },
+  {
+    "id": "rq_000071",
+    "recorded_at": "2020-06-13T19:55:20Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5499,
+      "vehicle_price_usd": 39657.22,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-06-30"
+    }
+  },
+  {
+    "id": "rq_000072",
+    "recorded_at": "2020-07-01T20:50:14Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4703,
+      "vehicle_price_usd": 104145.11,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2020-07-20"
+    }
+  },
+  {
+    "id": "rq_000073",
+    "recorded_at": "2020-07-04T22:15:47Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 49941,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2020-07-08"
+    }
+  },
+  {
+    "id": "rq_000074",
+    "recorded_at": "2020-08-05T19:56:58Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3325,
+      "vehicle_price_usd": 124990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2020-08-09"
+    }
+  },
+  {
+    "id": "rq_000075",
+    "recorded_at": "2020-08-13T16:34:18Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2525,
+      "vehicle_price_usd": 54990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2020-09-02"
+    }
+  },
+  {
+    "id": "rq_000076",
+    "recorded_at": "2020-09-01T17:09:42Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 7000,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "MI",
+      "delivery_date": "2020-09-06"
+    }
+  },
+  {
+    "id": "rq_000077",
+    "recorded_at": "2020-09-10T22:33:06Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 7160,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "PA",
+      "delivery_date": "2020-09-26"
+    }
+  },
+  {
+    "id": "rq_000078",
+    "recorded_at": "2020-09-17T18:06:49Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6025,
+      "vehicle_price_usd": 44990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2020-09-22"
+    }
+  },
+  {
+    "id": "rq_000079",
+    "recorded_at": "2020-11-08T18:05:33Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5927,
+      "vehicle_price_usd": 120364,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2020-11-18"
+    }
+  },
+  {
+    "id": "rq_000080",
+    "recorded_at": "2020-11-12T22:26:04Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6340,
+      "vehicle_price_usd": 60966.94,
+      "financed": false,
+      "buyer_state": "VT",
+      "delivery_date": "2020-11-15"
+    }
+  },
+  {
+    "id": "rq_000081",
+    "recorded_at": "2020-12-14T21:01:30Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4008,
+      "vehicle_price_usd": 52854,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2020-12-31"
+    }
+  },
+  {
+    "id": "rq_000082",
+    "recorded_at": "2020-12-22T23:03:58Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6499,
+      "vehicle_price_usd": 38990,
+      "financed": true,
+      "buyer_state": "CO",
+      "delivery_date": "2021-01-12"
+    }
+  },
+  {
+    "id": "rq_000083",
+    "recorded_at": "2020-12-31T18:46:22Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2525,
+      "vehicle_price_usd": 126919,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2021-01-14"
+    }
+  },
+  {
+    "id": "rq_000084",
+    "recorded_at": "2020-12-31T16:42:45Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6181,
+      "vehicle_price_usd": 47500,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2021-01-07"
+    }
+  },
+  {
+    "id": "rq_000085",
+    "recorded_at": "2021-01-30T16:45:33Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5510,
+      "vehicle_price_usd": 85703.31,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2021-02-05"
+    }
+  },
+  {
+    "id": "rq_000086",
+    "recorded_at": "2021-02-15T17:26:05Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5500,
+      "vehicle_price_usd": 70593.87,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2021-02-28"
+    }
+  },
+  {
+    "id": "rq_000087",
+    "recorded_at": "2021-02-25T17:26:42Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4687,
+      "vehicle_price_usd": 129908,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2021-03-02"
+    }
+  },
+  {
+    "id": "rq_000088",
+    "recorded_at": "2021-03-21T18:57:27Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5110,
+      "vehicle_price_usd": 78206,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2021-04-02"
+    }
+  },
+  {
+    "id": "rq_000089",
+    "recorded_at": "2021-03-23T21:08:44Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6026,
+      "vehicle_price_usd": 124990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2021-04-13"
+    }
+  },
+  {
+    "id": "rq_000090",
+    "recorded_at": "2021-04-04T15:57:21Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3938,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2021-04-06"
+    }
+  },
+  {
+    "id": "rq_000091",
+    "recorded_at": "2021-04-13T18:56:10Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5229,
+      "vehicle_price_usd": 42918,
+      "financed": true,
+      "buyer_state": "PA",
+      "delivery_date": "2021-04-23"
+    }
+  },
+  {
+    "id": "rq_000092",
+    "recorded_at": "2021-04-21T21:17:39Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3510,
+      "vehicle_price_usd": 118079.89,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2021-04-25"
+    }
+  },
+  {
+    "id": "rq_000093",
+    "recorded_at": "2021-04-30T20:10:52Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 3975,
+      "vehicle_price_usd": 69990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2021-05-17"
+    }
+  },
+  {
+    "id": "rq_000094",
+    "recorded_at": "2021-05-03T21:30:46Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6475,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2021-05-23"
+    }
+  },
+  {
+    "id": "rq_000095",
+    "recorded_at": "2021-05-08T22:21:17Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 6698,
+      "vehicle_price_usd": 72712,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2021-05-15"
+    }
+  },
+  {
+    "id": "rq_000096",
+    "recorded_at": "2021-05-15T15:06:15Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3490,
+      "vehicle_price_usd": 114492.95,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2021-05-19"
+    }
+  },
+  {
+    "id": "rq_000097",
+    "recorded_at": "2021-05-17T21:05:53Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4500,
+      "vehicle_price_usd": 77329,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2021-05-22"
+    }
+  },
+  {
+    "id": "rq_000098",
+    "recorded_at": "2021-06-06T15:59:33Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6947,
+      "vehicle_price_usd": 50940,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2021-06-17"
+    }
+  },
+  {
+    "id": "rq_000099",
+    "recorded_at": "2021-06-07T23:42:39Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5025,
+      "vehicle_price_usd": 58195,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2021-06-13"
+    }
+  },
+  {
+    "id": "rq_000100",
+    "recorded_at": "2021-06-08T21:32:04Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3300,
+      "vehicle_price_usd": 38990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2021-06-19"
+    }
+  },
+  {
+    "id": "rq_000101",
+    "recorded_at": "2021-06-13T20:59:12Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3248,
+      "vehicle_price_usd": 72398.55,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2021-07-04"
+    }
+  },
+  {
+    "id": "rq_000102",
+    "recorded_at": "2021-06-16T20:24:02Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4744,
+      "vehicle_price_usd": 59990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2021-07-01"
+    }
+  },
+  {
+    "id": "rq_000103",
+    "recorded_at": "2021-06-29T16:32:26Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6907,
+      "vehicle_price_usd": 109990,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2021-07-05"
+    }
+  },
+  {
+    "id": "rq_000104",
+    "recorded_at": "2021-07-22T22:44:51Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3990,
+      "vehicle_price_usd": 108957,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2021-08-03"
+    }
+  },
+  {
+    "id": "rq_000105",
+    "recorded_at": "2021-07-24T18:34:21Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 84450,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2021-08-14"
+    }
+  },
+  {
+    "id": "rq_000106",
+    "recorded_at": "2021-07-24T19:45:12Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3300,
+      "vehicle_price_usd": 68872,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2021-08-01"
+    }
+  },
+  {
+    "id": "rq_000107",
+    "recorded_at": "2021-08-08T14:44:25Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5490,
+      "vehicle_price_usd": 64990,
+      "financed": false,
+      "buyer_state": "PA",
+      "delivery_date": "2021-08-12"
+    }
+  },
+  {
+    "id": "rq_000108",
+    "recorded_at": "2021-08-11T15:33:18Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4811,
+      "vehicle_price_usd": 47500,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2021-09-01"
+    }
+  },
+  {
+    "id": "rq_000109",
+    "recorded_at": "2021-08-14T23:23:40Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2709,
+      "vehicle_price_usd": 125249.82,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2021-09-04"
+    }
+  },
+  {
+    "id": "rq_000110",
+    "recorded_at": "2021-09-08T18:34:21Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5630,
+      "vehicle_price_usd": 99449,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2021-09-17"
+    }
+  },
+  {
+    "id": "rq_000111",
+    "recorded_at": "2021-09-10T14:25:42Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3882,
+      "vehicle_price_usd": 125563,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2021-09-13"
+    }
+  },
+  {
+    "id": "rq_000112",
+    "recorded_at": "2021-09-15T22:51:16Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 61814,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2021-10-06"
+    }
+  },
+  {
+    "id": "rq_000113",
+    "recorded_at": "2021-09-17T16:37:23Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3690,
+      "vehicle_price_usd": 75654.44,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2021-09-19"
+    }
+  },
+  {
+    "id": "rq_000114",
+    "recorded_at": "2021-09-18T19:34:27Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2525,
+      "vehicle_price_usd": 41204.91,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2021-09-24"
+    }
+  },
+  {
+    "id": "rq_000115",
+    "recorded_at": "2021-10-21T14:21:38Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5510,
+      "vehicle_price_usd": 41490,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2021-11-02"
+    }
+  },
+  {
+    "id": "rq_000116",
+    "recorded_at": "2021-10-27T16:17:08Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4133,
+      "vehicle_price_usd": 65214.95,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2021-11-02"
+    }
+  },
+  {
+    "id": "rq_000117",
+    "recorded_at": "2021-11-13T16:53:18Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5058,
+      "vehicle_price_usd": 77072,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2021-11-18"
+    }
+  },
+  {
+    "id": "rq_000118",
+    "recorded_at": "2021-12-10T23:43:33Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4025,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2021-12-23"
+    }
+  },
+  {
+    "id": "rq_000119",
+    "recorded_at": "2022-01-01T22:08:19Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3501,
+      "vehicle_price_usd": 85490.04,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2022-01-21"
+    }
+  },
+  {
+    "id": "rq_000120",
+    "recorded_at": "2022-01-11T18:54:12Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3445,
+      "vehicle_price_usd": 89990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2022-01-29"
+    }
+  },
+  {
+    "id": "rq_000121",
+    "recorded_at": "2022-01-13T14:24:36Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6490,
+      "vehicle_price_usd": 82173.83,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2022-01-31"
+    }
+  },
+  {
+    "id": "rq_000122",
+    "recorded_at": "2022-02-04T21:10:13Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6969,
+      "vehicle_price_usd": 64990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2022-02-16"
+    }
+  },
+  {
+    "id": "rq_000123",
+    "recorded_at": "2022-02-10T16:12:05Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6490,
+      "vehicle_price_usd": 84169.89,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2022-02-14"
+    }
+  },
+  {
+    "id": "rq_000124",
+    "recorded_at": "2022-02-16T15:19:28Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6068,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2022-02-23"
+    }
+  },
+  {
+    "id": "rq_000125",
+    "recorded_at": "2022-03-14T17:10:26Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5461,
+      "vehicle_price_usd": 116299.56,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2022-03-21"
+    }
+  },
+  {
+    "id": "rq_000126",
+    "recorded_at": "2022-03-22T22:34:52Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 2604,
+      "vehicle_price_usd": 124990,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2022-03-29"
+    }
+  },
+  {
+    "id": "rq_000127",
+    "recorded_at": "2022-03-25T20:31:49Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3501,
+      "vehicle_price_usd": 76469,
+      "financed": true,
+      "buyer_state": "CT",
+      "delivery_date": "2022-04-01"
+    }
+  },
+  {
+    "id": "rq_000128",
+    "recorded_at": "2022-04-08T17:06:37Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 47500,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2022-04-12"
+    }
+  },
+  {
+    "id": "rq_000129",
+    "recorded_at": "2022-04-09T19:59:31Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6752,
+      "vehicle_price_usd": 114558.56,
+      "financed": true,
+      "buyer_state": "IL",
+      "delivery_date": "2022-04-22"
+    }
+  },
+  {
+    "id": "rq_000130",
+    "recorded_at": "2022-04-12T19:32:08Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2965,
+      "vehicle_price_usd": 47500,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2022-04-17"
+    }
+  },
+  {
+    "id": "rq_000131",
+    "recorded_at": "2022-05-17T18:17:14Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3223,
+      "vehicle_price_usd": 62911.2,
+      "financed": false,
+      "buyer_state": "OR",
+      "delivery_date": "2022-05-27"
+    }
+  },
+  {
+    "id": "rq_000132",
+    "recorded_at": "2022-05-18T19:53:57Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5025,
+      "vehicle_price_usd": 85914,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2022-05-31"
+    }
+  },
+  {
+    "id": "rq_000133",
+    "recorded_at": "2022-07-03T22:12:54Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 90670,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2022-07-19"
+    }
+  },
+  {
+    "id": "rq_000134",
+    "recorded_at": "2022-07-04T22:31:16Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3310,
+      "vehicle_price_usd": 88130,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2022-07-10"
+    }
+  },
+  {
+    "id": "rq_000135",
+    "recorded_at": "2022-07-06T22:53:26Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3966,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2022-07-20"
+    }
+  },
+  {
+    "id": "rq_000136",
+    "recorded_at": "2022-07-20T20:32:29Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2810,
+      "vehicle_price_usd": 81376,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2022-07-24"
+    }
+  },
+  {
+    "id": "rq_000137",
+    "recorded_at": "2022-08-12T19:21:35Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 4760,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2022-08-15"
+    }
+  },
+  {
+    "id": "rq_000138",
+    "recorded_at": "2022-09-02T19:06:56Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3258,
+      "vehicle_price_usd": 65550.97,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2022-09-10"
+    }
+  },
+  {
+    "id": "rq_000139",
+    "recorded_at": "2022-09-14T22:45:55Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 7011,
+      "vehicle_price_usd": 54990,
+      "financed": true,
+      "buyer_state": "VT",
+      "delivery_date": "2022-10-01"
+    }
+  },
+  {
+    "id": "rq_000140",
+    "recorded_at": "2022-09-18T14:02:25Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6541,
+      "vehicle_price_usd": 67247,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2022-09-28"
+    }
+  },
+  {
+    "id": "rq_000141",
+    "recorded_at": "2022-09-21T15:22:54Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3510,
+      "vehicle_price_usd": 69990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2022-09-27"
+    }
+  },
+  {
+    "id": "rq_000142",
+    "recorded_at": "2022-09-28T20:37:40Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5500,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2022-10-17"
+    }
+  },
+  {
+    "id": "rq_000143",
+    "recorded_at": "2022-10-10T20:53:51Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3025,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2022-10-21"
+    }
+  },
+  {
+    "id": "rq_000144",
+    "recorded_at": "2022-10-24T18:32:33Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4589,
+      "vehicle_price_usd": 59990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2022-10-28"
+    }
+  },
+  {
+    "id": "rq_000145",
+    "recorded_at": "2022-10-25T19:05:57Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6028,
+      "vehicle_price_usd": 129048,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2022-11-09"
+    }
+  },
+  {
+    "id": "rq_000146",
+    "recorded_at": "2022-11-16T22:40:28Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3010,
+      "vehicle_price_usd": 64990,
+      "financed": true,
+      "buyer_state": "CO",
+      "delivery_date": "2022-11-18"
+    }
+  },
+  {
+    "id": "rq_000147",
+    "recorded_at": "2022-11-28T14:32:02Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3025,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "OR",
+      "delivery_date": "2022-12-15"
+    }
+  },
+  {
+    "id": "rq_000148",
+    "recorded_at": "2022-12-02T17:51:26Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4614,
+      "vehicle_price_usd": 94242.29,
+      "financed": true,
+      "buyer_state": "OR",
+      "delivery_date": "2022-12-05"
+    }
+  },
+  {
+    "id": "rq_000149",
+    "recorded_at": "2022-12-14T20:08:25Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5570,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "IL",
+      "delivery_date": "2022-12-20"
+    }
+  },
+  {
+    "id": "rq_000150",
+    "recorded_at": "2022-12-24T20:26:23Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 4179,
+      "vehicle_price_usd": 44741.46,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2023-01-04"
+    }
+  },
+  {
+    "id": "rq_000151",
+    "recorded_at": "2022-12-27T18:06:05Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5662,
+      "vehicle_price_usd": 106828,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2023-01-02"
+    }
+  },
+  {
+    "id": "rq_000152",
+    "recorded_at": "2023-01-05T15:03:09Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3000,
+      "vehicle_price_usd": 96917.22,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2023-01-17"
+    }
+  },
+  {
+    "id": "rq_000153",
+    "recorded_at": "2023-02-08T21:38:16Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4104,
+      "vehicle_price_usd": 67870.16,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2023-02-28"
+    }
+  },
+  {
+    "id": "rq_000154",
+    "recorded_at": "2023-02-16T14:38:25Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3999,
+      "vehicle_price_usd": 88309.59,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2023-02-27"
+    }
+  },
+  {
+    "id": "rq_000155",
+    "recorded_at": "2023-02-17T16:00:36Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6025,
+      "vehicle_price_usd": 61838.49,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2023-02-27"
+    }
+  },
+  {
+    "id": "rq_000156",
+    "recorded_at": "2023-04-05T23:20:01Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3490,
+      "vehicle_price_usd": 124990,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2023-04-25"
+    }
+  },
+  {
+    "id": "rq_000157",
+    "recorded_at": "2023-04-27T23:39:12Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 126581,
+      "financed": false,
+      "buyer_state": "CT",
+      "delivery_date": "2023-05-13"
+    }
+  },
+  {
+    "id": "rq_000158",
+    "recorded_at": "2023-04-27T17:26:09Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4865,
+      "vehicle_price_usd": 115020.38,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2023-05-10"
+    }
+  },
+  {
+    "id": "rq_000159",
+    "recorded_at": "2023-05-08T23:17:06Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 79595,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2023-05-13"
+    }
+  },
+  {
+    "id": "rq_000160",
+    "recorded_at": "2023-06-18T14:01:04Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6010,
+      "vehicle_price_usd": 64990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2023-06-21"
+    }
+  },
+  {
+    "id": "rq_000161",
+    "recorded_at": "2023-06-23T16:58:21Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5069,
+      "vehicle_price_usd": 124990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2023-07-10"
+    }
+  },
+  {
+    "id": "rq_000162",
+    "recorded_at": "2023-07-24T19:13:06Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5975,
+      "vehicle_price_usd": 42165.42,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2023-07-26"
+    }
+  },
+  {
+    "id": "rq_000163",
+    "recorded_at": "2023-08-06T19:28:44Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4917,
+      "vehicle_price_usd": 124990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2023-08-09"
+    }
+  },
+  {
+    "id": "rq_000164",
+    "recorded_at": "2023-08-17T17:46:40Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5230,
+      "vehicle_price_usd": 38990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2023-08-20"
+    }
+  },
+  {
+    "id": "rq_000165",
+    "recorded_at": "2023-08-18T21:30:48Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2490,
+      "vehicle_price_usd": 73284,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2023-08-26"
+    }
+  },
+  {
+    "id": "rq_000166",
+    "recorded_at": "2023-08-20T22:36:55Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5025,
+      "vehicle_price_usd": 120472,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2023-08-26"
+    }
+  },
+  {
+    "id": "rq_000167",
+    "recorded_at": "2023-09-04T14:34:00Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3290,
+      "vehicle_price_usd": 52148,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2023-09-17"
+    }
+  },
+  {
+    "id": "rq_000168",
+    "recorded_at": "2023-09-08T20:36:01Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5586,
+      "vehicle_price_usd": 116285,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2023-09-29"
+    }
+  },
+  {
+    "id": "rq_000169",
+    "recorded_at": "2023-09-12T19:07:13Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3525,
+      "vehicle_price_usd": 69990,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2023-09-16"
+    }
+  },
+  {
+    "id": "rq_000170",
+    "recorded_at": "2023-10-07T20:25:29Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5457,
+      "vehicle_price_usd": 94990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2023-10-10"
+    }
+  },
+  {
+    "id": "rq_000171",
+    "recorded_at": "2023-10-25T19:24:25Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4999,
+      "vehicle_price_usd": 107668.14,
+      "financed": false,
+      "buyer_state": "IL",
+      "delivery_date": "2023-11-03"
+    }
+  },
+  {
+    "id": "rq_000172",
+    "recorded_at": "2023-10-27T18:26:28Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3433,
+      "vehicle_price_usd": 127032,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2023-10-31"
+    }
+  },
+  {
+    "id": "rq_000173",
+    "recorded_at": "2023-11-14T16:03:40Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4147,
+      "vehicle_price_usd": 127691,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2023-11-18"
+    }
+  },
+  {
+    "id": "rq_000174",
+    "recorded_at": "2023-11-19T20:35:19Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5975,
+      "vehicle_price_usd": 73679.79,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2023-12-06"
+    }
+  },
+  {
+    "id": "rq_000175",
+    "recorded_at": "2023-11-22T17:26:56Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6378,
+      "vehicle_price_usd": 69990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2023-12-05"
+    }
+  },
+  {
+    "id": "rq_000176",
+    "recorded_at": "2023-12-20T16:12:36Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5212,
+      "vehicle_price_usd": 78369.13,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2024-01-06"
+    }
+  },
+  {
+    "id": "rq_000177",
+    "recorded_at": "2023-12-28T18:36:51Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 2846,
+      "vehicle_price_usd": 99764,
+      "financed": false,
+      "buyer_state": "NJ",
+      "delivery_date": "2024-01-04"
+    }
+  },
+  {
+    "id": "rq_000178",
+    "recorded_at": "2023-12-28T23:56:46Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 40574.07,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2024-01-10"
+    }
+  },
+  {
+    "id": "rq_000179",
+    "recorded_at": "2024-01-07T23:37:48Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4066,
+      "vehicle_price_usd": 45745,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-01-18"
+    }
+  },
+  {
+    "id": "rq_000180",
+    "recorded_at": "2024-01-14T23:36:58Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6010,
+      "vehicle_price_usd": 104385.78,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-01"
+    }
+  },
+  {
+    "id": "rq_000181",
+    "recorded_at": "2024-01-17T21:56:46Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2024-02-02"
+    }
+  },
+  {
+    "id": "rq_000182",
+    "recorded_at": "2024-01-17T17:52:47Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 64990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-06"
+    }
+  },
+  {
+    "id": "rq_000183",
+    "recorded_at": "2024-01-18T20:52:42Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3999,
+      "vehicle_price_usd": 111345,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-08"
+    }
+  },
+  {
+    "id": "rq_000184",
+    "recorded_at": "2024-01-20T16:27:48Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 51469,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2024-01-23"
+    }
+  },
+  {
+    "id": "rq_000185",
+    "recorded_at": "2024-01-21T15:26:19Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3542,
+      "vehicle_price_usd": 85100.65,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2024-02-04"
+    }
+  },
+  {
+    "id": "rq_000186",
+    "recorded_at": "2024-01-22T15:32:52Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4999,
+      "vehicle_price_usd": 116634,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-01"
+    }
+  },
+  {
+    "id": "rq_000187",
+    "recorded_at": "2024-01-25T17:48:49Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5538,
+      "vehicle_price_usd": 90131,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-06"
+    }
+  },
+  {
+    "id": "rq_000188",
+    "recorded_at": "2024-01-26T20:17:28Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5001,
+      "vehicle_price_usd": 47500,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-14"
+    }
+  },
+  {
+    "id": "rq_000189",
+    "recorded_at": "2024-01-26T22:56:48Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 6659,
+      "vehicle_price_usd": 52990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2024-02-08"
+    }
+  },
+  {
+    "id": "rq_000190",
+    "recorded_at": "2024-01-26T20:46:48Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 40822.58,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2024-02-14"
+    }
+  },
+  {
+    "id": "rq_000191",
+    "recorded_at": "2024-01-26T16:24:11Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6001,
+      "vehicle_price_usd": 54990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-13"
+    }
+  },
+  {
+    "id": "rq_000192",
+    "recorded_at": "2024-01-27T20:05:50Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5025,
+      "vehicle_price_usd": 98287.4,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-02"
+    }
+  },
+  {
+    "id": "rq_000193",
+    "recorded_at": "2024-01-28T15:53:50Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4331,
+      "vehicle_price_usd": 91933.79,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-07"
+    }
+  },
+  {
+    "id": "rq_000194",
+    "recorded_at": "2024-01-28T16:52:13Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6614,
+      "vehicle_price_usd": 38990,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-01"
+    }
+  },
+  {
+    "id": "rq_000195",
+    "recorded_at": "2024-02-05T23:43:53Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 41490,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-24"
+    }
+  },
+  {
+    "id": "rq_000196",
+    "recorded_at": "2024-02-09T22:17:35Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 54990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-02-19"
+    }
+  },
+  {
+    "id": "rq_000197",
+    "recorded_at": "2024-02-09T17:28:13Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3299,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2024-02-29"
+    }
+  },
+  {
+    "id": "rq_000198",
+    "recorded_at": "2024-02-10T20:21:03Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4025,
+      "vehicle_price_usd": 43468.91,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-29"
+    }
+  },
+  {
+    "id": "rq_000199",
+    "recorded_at": "2024-02-12T20:17:55Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 44301,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-16"
+    }
+  },
+  {
+    "id": "rq_000200",
+    "recorded_at": "2024-02-12T22:45:34Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4499,
+      "vehicle_price_usd": 87831,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2024-02-24"
+    }
+  },
+  {
+    "id": "rq_000201",
+    "recorded_at": "2024-02-13T18:32:26Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4898,
+      "vehicle_price_usd": 74613,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-25"
+    }
+  },
+  {
+    "id": "rq_000202",
+    "recorded_at": "2024-02-13T14:16:55Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3738,
+      "vehicle_price_usd": 84831,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-24"
+    }
+  },
+  {
+    "id": "rq_000203",
+    "recorded_at": "2024-02-16T18:03:11Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2853,
+      "vehicle_price_usd": 43000,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2024-02-21"
+    }
+  },
+  {
+    "id": "rq_000204",
+    "recorded_at": "2024-02-19T20:38:53Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6523,
+      "vehicle_price_usd": 36179.3,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2024-02-26"
+    }
+  },
+  {
+    "id": "rq_000205",
+    "recorded_at": "2024-02-20T22:04:57Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6158,
+      "vehicle_price_usd": 78469,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-28"
+    }
+  },
+  {
+    "id": "rq_000206",
+    "recorded_at": "2024-02-20T23:31:00Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6025,
+      "vehicle_price_usd": 111530,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-28"
+    }
+  },
+  {
+    "id": "rq_000207",
+    "recorded_at": "2024-02-24T22:34:32Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3525,
+      "vehicle_price_usd": 45123,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-03-07"
+    }
+  },
+  {
+    "id": "rq_000208",
+    "recorded_at": "2024-02-24T19:01:55Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3975,
+      "vehicle_price_usd": 79990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-28"
+    }
+  },
+  {
+    "id": "rq_000209",
+    "recorded_at": "2024-02-25T20:08:55Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3975,
+      "vehicle_price_usd": 121800.24,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2024-02-29"
+    }
+  },
+  {
+    "id": "rq_000210",
+    "recorded_at": "2024-02-25T21:48:43Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 2873,
+      "vehicle_price_usd": 47500,
+      "financed": true,
+      "buyer_state": "CO",
+      "delivery_date": "2024-03-02"
+    }
+  },
+  {
+    "id": "rq_000211",
+    "recorded_at": "2024-03-02T22:59:49Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 4959,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2024-03-18"
+    }
+  },
+  {
+    "id": "rq_000212",
+    "recorded_at": "2024-03-21T18:34:34Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5990,
+      "vehicle_price_usd": 67723,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-03-31"
+    }
+  },
+  {
+    "id": "rq_000213",
+    "recorded_at": "2024-03-30T23:05:21Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6928,
+      "vehicle_price_usd": 41920.65,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-04-11"
+    }
+  },
+  {
+    "id": "rq_000214",
+    "recorded_at": "2024-04-04T16:59:12Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5166,
+      "vehicle_price_usd": 64990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2024-04-24"
+    }
+  },
+  {
+    "id": "rq_000215",
+    "recorded_at": "2024-04-11T20:05:38Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 94990,
+      "financed": false,
+      "buyer_state": "IL",
+      "delivery_date": "2024-04-17"
+    }
+  },
+  {
+    "id": "rq_000216",
+    "recorded_at": "2024-04-13T22:12:57Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 47787.06,
+      "financed": true,
+      "buyer_state": "CT",
+      "delivery_date": "2024-04-17"
+    }
+  },
+  {
+    "id": "rq_000217",
+    "recorded_at": "2024-04-16T16:38:22Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 123484,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2024-05-06"
+    }
+  },
+  {
+    "id": "rq_000218",
+    "recorded_at": "2024-04-17T20:03:21Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 6853,
+      "vehicle_price_usd": 91594.5,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2024-04-24"
+    }
+  },
+  {
+    "id": "rq_000219",
+    "recorded_at": "2024-05-16T20:34:50Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3795,
+      "vehicle_price_usd": 95153.92,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2024-06-05"
+    }
+  },
+  {
+    "id": "rq_000220",
+    "recorded_at": "2024-05-19T18:52:59Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6010,
+      "vehicle_price_usd": 45096,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-06-02"
+    }
+  },
+  {
+    "id": "rq_000221",
+    "recorded_at": "2024-05-20T16:56:58Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 2942,
+      "vehicle_price_usd": 52634,
+      "financed": false,
+      "buyer_state": "QC",
+      "delivery_date": "2024-06-01"
+    }
+  },
+  {
+    "id": "rq_000222",
+    "recorded_at": "2024-05-30T19:26:21Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3500,
+      "vehicle_price_usd": 74180.82,
+      "financed": false,
+      "buyer_state": "PA",
+      "delivery_date": "2024-06-12"
+    }
+  },
+  {
+    "id": "rq_000223",
+    "recorded_at": "2024-06-12T17:50:30Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 74990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2024-06-17"
+    }
+  },
+  {
+    "id": "rq_000224",
+    "recorded_at": "2024-06-20T23:22:33Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 44260,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2024-07-06"
+    }
+  },
+  {
+    "id": "rq_000225",
+    "recorded_at": "2024-06-21T23:47:31Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6171,
+      "vehicle_price_usd": 115013.72,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2024-07-06"
+    }
+  },
+  {
+    "id": "rq_000226",
+    "recorded_at": "2024-06-21T14:16:52Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3737,
+      "vehicle_price_usd": 91864.45,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-06-25"
+    }
+  },
+  {
+    "id": "rq_000227",
+    "recorded_at": "2024-07-07T21:26:41Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5525,
+      "vehicle_price_usd": 99917,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2024-07-16"
+    }
+  },
+  {
+    "id": "rq_000228",
+    "recorded_at": "2024-08-06T20:33:55Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4171,
+      "vehicle_price_usd": 38990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2024-08-18"
+    }
+  },
+  {
+    "id": "rq_000229",
+    "recorded_at": "2024-08-13T21:58:21Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6319,
+      "vehicle_price_usd": 58292.51,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2024-08-16"
+    }
+  },
+  {
+    "id": "rq_000230",
+    "recorded_at": "2024-08-26T21:39:10Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4501,
+      "vehicle_price_usd": 45016.65,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2024-09-15"
+    }
+  },
+  {
+    "id": "rq_000231",
+    "recorded_at": "2024-08-26T14:12:36Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 3440,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-09-03"
+    }
+  },
+  {
+    "id": "rq_000232",
+    "recorded_at": "2024-09-16T19:48:02Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6156,
+      "vehicle_price_usd": 124990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2024-10-03"
+    }
+  },
+  {
+    "id": "rq_000233",
+    "recorded_at": "2024-09-18T21:51:49Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5131,
+      "vehicle_price_usd": 79990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2024-10-06"
+    }
+  },
+  {
+    "id": "rq_000234",
+    "recorded_at": "2024-10-15T18:28:00Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5000,
+      "vehicle_price_usd": 89990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2024-10-29"
+    }
+  },
+  {
+    "id": "rq_000235",
+    "recorded_at": "2024-10-19T14:27:07Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5617,
+      "vehicle_price_usd": 102986,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2024-10-24"
+    }
+  },
+  {
+    "id": "rq_000236",
+    "recorded_at": "2024-11-11T15:57:44Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6000,
+      "vehicle_price_usd": 78809,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2024-11-17"
+    }
+  },
+  {
+    "id": "rq_000237",
+    "recorded_at": "2024-11-24T17:03:23Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5748,
+      "vehicle_price_usd": 98732.94,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2024-12-03"
+    }
+  },
+  {
+    "id": "rq_000238",
+    "recorded_at": "2024-12-07T18:53:38Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6001,
+      "vehicle_price_usd": 127363.69,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2024-12-23"
+    }
+  },
+  {
+    "id": "rq_000239",
+    "recorded_at": "2024-12-15T22:48:40Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5525,
+      "vehicle_price_usd": 81123,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2025-01-03"
+    }
+  },
+  {
+    "id": "rq_000240",
+    "recorded_at": "2024-12-31T15:50:36Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6847,
+      "vehicle_price_usd": 69990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2025-01-18"
+    }
+  },
+  {
+    "id": "rq_000241",
+    "recorded_at": "2025-02-06T22:43:08Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5990,
+      "vehicle_price_usd": 89990,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2025-02-27"
+    }
+  },
+  {
+    "id": "rq_000242",
+    "recorded_at": "2025-02-09T18:36:36Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4145,
+      "vehicle_price_usd": 86639,
+      "financed": true,
+      "buyer_state": "NV",
+      "delivery_date": "2025-03-02"
+    }
+  },
+  {
+    "id": "rq_000243",
+    "recorded_at": "2025-02-10T16:12:06Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 4010,
+      "vehicle_price_usd": 120474.31,
+      "financed": false,
+      "buyer_state": "NV",
+      "delivery_date": "2025-02-22"
+    }
+  },
+  {
+    "id": "rq_000244",
+    "recorded_at": "2025-02-24T14:54:02Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2500,
+      "vehicle_price_usd": 59990,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2025-03-11"
+    }
+  },
+  {
+    "id": "rq_000245",
+    "recorded_at": "2025-02-24T16:03:54Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 2865,
+      "vehicle_price_usd": 89990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2025-03-09"
+    }
+  },
+  {
+    "id": "rq_000246",
+    "recorded_at": "2025-03-14T20:29:53Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3510,
+      "vehicle_price_usd": 59990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2025-03-26"
+    }
+  },
+  {
+    "id": "rq_000247",
+    "recorded_at": "2025-03-25T23:43:07Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3300,
+      "vehicle_price_usd": 83300,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2025-04-14"
+    }
+  },
+  {
+    "id": "rq_000248",
+    "recorded_at": "2025-03-26T16:27:23Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3525,
+      "vehicle_price_usd": 89990,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2025-04-03"
+    }
+  },
+  {
+    "id": "rq_000249",
+    "recorded_at": "2025-04-23T14:05:40Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 5815,
+      "vehicle_price_usd": 72076.09,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2025-05-06"
+    }
+  },
+  {
+    "id": "rq_000250",
+    "recorded_at": "2025-05-01T17:15:08Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6017,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2025-05-08"
+    }
+  },
+  {
+    "id": "rq_000251",
+    "recorded_at": "2025-05-19T17:48:17Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3500,
+      "vehicle_price_usd": 52990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2025-05-22"
+    }
+  },
+  {
+    "id": "rq_000252",
+    "recorded_at": "2025-05-25T15:11:30Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2999,
+      "vehicle_price_usd": 64331.13,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2025-06-09"
+    }
+  },
+  {
+    "id": "rq_000253",
+    "recorded_at": "2025-05-25T17:27:45Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5926,
+      "vehicle_price_usd": 51104,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2025-06-06"
+    }
+  },
+  {
+    "id": "rq_000254",
+    "recorded_at": "2025-06-04T16:03:52Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3097,
+      "vehicle_price_usd": 36035.47,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2025-06-06"
+    }
+  },
+  {
+    "id": "rq_000255",
+    "recorded_at": "2025-06-18T21:13:19Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6025,
+      "vehicle_price_usd": 74990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2025-07-03"
+    }
+  },
+  {
+    "id": "rq_000256",
+    "recorded_at": "2025-06-20T21:00:20Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 6749,
+      "vehicle_price_usd": 89990,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2025-07-09"
+    }
+  },
+  {
+    "id": "rq_000257",
+    "recorded_at": "2025-06-23T14:40:18Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6866,
+      "vehicle_price_usd": 47976,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2025-06-25"
+    }
+  },
+  {
+    "id": "rq_000258",
+    "recorded_at": "2025-07-15T23:29:25Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5989,
+      "vehicle_price_usd": 54990,
+      "financed": true,
+      "buyer_state": "QC",
+      "delivery_date": "2025-07-31"
+    }
+  },
+  {
+    "id": "rq_000259",
+    "recorded_at": "2025-07-31T17:05:40Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 2835,
+      "vehicle_price_usd": 86483,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2025-08-07"
+    }
+  },
+  {
+    "id": "rq_000260",
+    "recorded_at": "2025-07-31T23:34:22Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3475,
+      "vehicle_price_usd": 124132,
+      "financed": true,
+      "buyer_state": "VT",
+      "delivery_date": "2025-08-05"
+    }
+  },
+  {
+    "id": "rq_000261",
+    "recorded_at": "2025-08-03T17:37:38Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5649,
+      "vehicle_price_usd": 64304.94,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2025-08-17"
+    }
+  },
+  {
+    "id": "rq_000262",
+    "recorded_at": "2025-08-14T16:11:19Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4499,
+      "vehicle_price_usd": 89990,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2025-09-03"
+    }
+  },
+  {
+    "id": "rq_000263",
+    "recorded_at": "2025-08-21T16:26:12Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2975,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2025-09-04"
+    }
+  },
+  {
+    "id": "rq_000264",
+    "recorded_at": "2025-08-25T18:21:44Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5501,
+      "vehicle_price_usd": 59710.43,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2025-08-30"
+    }
+  },
+  {
+    "id": "rq_000265",
+    "recorded_at": "2025-09-10T18:00:19Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5860,
+      "vehicle_price_usd": 80078,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2025-09-29"
+    }
+  },
+  {
+    "id": "rq_000266",
+    "recorded_at": "2025-09-11T14:52:16Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3318,
+      "vehicle_price_usd": 69990,
+      "financed": false,
+      "buyer_state": "NY",
+      "delivery_date": "2025-09-15"
+    }
+  },
+  {
+    "id": "rq_000267",
+    "recorded_at": "2025-09-18T18:18:18Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3300,
+      "vehicle_price_usd": 44990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2025-09-22"
+    }
+  },
+  {
+    "id": "rq_000268",
+    "recorded_at": "2025-10-01T23:39:45Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5971,
+      "vehicle_price_usd": 94990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2025-10-22"
+    }
+  },
+  {
+    "id": "rq_000269",
+    "recorded_at": "2025-10-12T16:14:55Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4025,
+      "vehicle_price_usd": 124990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2025-10-23"
+    }
+  },
+  {
+    "id": "rq_000270",
+    "recorded_at": "2025-11-10T22:32:21Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6400,
+      "vehicle_price_usd": 63428,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2025-11-16"
+    }
+  },
+  {
+    "id": "rq_000271",
+    "recorded_at": "2025-11-18T23:36:32Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 115538,
+      "financed": false,
+      "buyer_state": "MA",
+      "delivery_date": "2025-11-29"
+    }
+  },
+  {
+    "id": "rq_000272",
+    "recorded_at": "2025-11-18T22:43:19Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 7196,
+      "vehicle_price_usd": 44136,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2025-11-25"
+    }
+  },
+  {
+    "id": "rq_000273",
+    "recorded_at": "2025-11-22T15:16:39Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 2500,
+      "vehicle_price_usd": 59990,
+      "financed": false,
+      "buyer_state": "FL",
+      "delivery_date": "2025-12-04"
+    }
+  },
+  {
+    "id": "rq_000274",
+    "recorded_at": "2025-11-22T23:55:18Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 4059,
+      "vehicle_price_usd": 47500,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2025-11-28"
+    }
+  },
+  {
+    "id": "rq_000275",
+    "recorded_at": "2025-11-30T14:57:04Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5999,
+      "vehicle_price_usd": 54990,
+      "financed": false,
+      "buyer_state": "CA",
+      "delivery_date": "2025-12-08"
+    }
+  },
+  {
+    "id": "rq_000276",
+    "recorded_at": "2025-12-08T21:21:08Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6814,
+      "vehicle_price_usd": 109982.27,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2025-12-23"
+    }
+  },
+  {
+    "id": "rq_000277",
+    "recorded_at": "2025-12-11T17:45:17Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 3925,
+      "vehicle_price_usd": 74990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2025-12-30"
+    }
+  },
+  {
+    "id": "rq_000278",
+    "recorded_at": "2025-12-19T15:10:33Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 6777,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2026-01-07"
+    }
+  },
+  {
+    "id": "rq_000279",
+    "recorded_at": "2025-12-30T21:55:35Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5010,
+      "vehicle_price_usd": 115681,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2026-01-03"
+    }
+  },
+  {
+    "id": "rq_000280",
+    "recorded_at": "2026-01-04T19:10:36Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 6215,
+      "vehicle_price_usd": 60747,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2026-01-09"
+    }
+  },
+  {
+    "id": "rq_000281",
+    "recorded_at": "2026-01-30T15:32:34Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 5827,
+      "vehicle_price_usd": 44078.44,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2026-02-18"
+    }
+  },
+  {
+    "id": "rq_000282",
+    "recorded_at": "2026-01-30T19:24:43Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 2930,
+      "vehicle_price_usd": 55385,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2026-02-17"
+    }
+  },
+  {
+    "id": "rq_000283",
+    "recorded_at": "2026-01-30T15:25:24Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3829,
+      "vehicle_price_usd": 41490,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2026-02-03"
+    }
+  },
+  {
+    "id": "rq_000284",
+    "recorded_at": "2026-02-04T20:40:31Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 5990,
+      "vehicle_price_usd": 41490,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2026-02-25"
+    }
+  },
+  {
+    "id": "rq_000285",
+    "recorded_at": "2026-02-15T22:02:25Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 79990,
+      "financed": false,
+      "buyer_state": "ON",
+      "delivery_date": "2026-02-24"
+    }
+  },
+  {
+    "id": "rq_000286",
+    "recorded_at": "2026-03-06T20:28:01Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 3975,
+      "vehicle_price_usd": 41490,
+      "financed": true,
+      "buyer_state": "WA",
+      "delivery_date": "2026-03-16"
+    }
+  },
+  {
+    "id": "rq_000287",
+    "recorded_at": "2026-03-10T21:47:55Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 5255,
+      "vehicle_price_usd": 52990,
+      "financed": false,
+      "buyer_state": "WA",
+      "delivery_date": "2026-03-24"
+    }
+  },
+  {
+    "id": "rq_000288",
+    "recorded_at": "2026-04-01T19:04:50Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 2999,
+      "vehicle_price_usd": 120679.13,
+      "financed": true,
+      "buyer_state": "CA",
+      "delivery_date": "2026-04-16"
+    }
+  },
+  {
+    "id": "rq_000289",
+    "recorded_at": "2026-04-08T14:34:19Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6349,
+      "vehicle_price_usd": 109762,
+      "financed": true,
+      "buyer_state": "NJ",
+      "delivery_date": "2026-04-29"
+    }
+  },
+  {
+    "id": "rq_000290",
+    "recorded_at": "2026-05-07T22:11:18Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 3499,
+      "vehicle_price_usd": 71109,
+      "financed": true,
+      "buyer_state": "PA",
+      "delivery_date": "2026-05-09"
+    }
+  },
+  {
+    "id": "rq_000291",
+    "recorded_at": "2026-05-21T22:04:11Z",
+    "body": {
+      "state": "WA",
+      "vehicle_weight_lbs": 2641,
+      "vehicle_price_usd": 99374,
+      "financed": false,
+      "buyer_state": "IL",
+      "delivery_date": "2026-06-08"
+    }
+  },
+  {
+    "id": "rq_000292",
+    "recorded_at": "2026-05-27T23:21:22Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 4000,
+      "vehicle_price_usd": 109990,
+      "financed": true,
+      "buyer_state": "TX",
+      "delivery_date": "2026-06-09"
+    }
+  },
+  {
+    "id": "rq_000293",
+    "recorded_at": "2026-05-28T16:14:59Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 5475,
+      "vehicle_price_usd": 96556,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2026-06-05"
+    }
+  },
+  {
+    "id": "rq_000294",
+    "recorded_at": "2026-06-30T19:02:39Z",
+    "body": {
+      "state": "FL",
+      "vehicle_weight_lbs": 3500,
+      "vehicle_price_usd": 45499.83,
+      "financed": true,
+      "buyer_state": "FL",
+      "delivery_date": "2026-07-06"
+    }
+  },
+  {
+    "id": "rq_000295",
+    "recorded_at": "2026-07-09T19:41:05Z",
+    "body": {
+      "state": "CA",
+      "vehicle_weight_lbs": 3025,
+      "vehicle_price_usd": 54990,
+      "financed": false,
+      "buyer_state": "IL",
+      "delivery_date": "2026-07-27"
+    }
+  },
+  {
+    "id": "rq_000296",
+    "recorded_at": "2026-07-31T14:55:45Z",
+    "body": {
+      "state": "TX",
+      "vehicle_weight_lbs": 6010,
+      "vehicle_price_usd": 83922,
+      "financed": false,
+      "buyer_state": "TX",
+      "delivery_date": "2026-08-03"
+    }
+  },
+  {
+    "id": "rq_000297",
+    "recorded_at": "2026-08-13T16:21:44Z",
+    "body": {
+      "state": "NY",
+      "vehicle_weight_lbs": 6075,
+      "vehicle_price_usd": 63168,
+      "financed": true,
+      "buyer_state": "NY",
+      "delivery_date": "2026-08-24"
+    }
+  },
+  {
+    "id": "rq_000298",
+    "recorded_at": "2026-08-20T15:43:36Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3275,
+      "vehicle_price_usd": 51052,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2026-09-03"
+    }
+  },
+  {
+    "id": "rq_000299",
+    "recorded_at": "2026-09-03T19:20:45Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 3840,
+      "vehicle_price_usd": 94990,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2026-09-22"
+    }
+  },
+  {
+    "id": "rq_000300",
+    "recorded_at": "2026-09-23T16:41:17Z",
+    "body": {
+      "state": "ON",
+      "vehicle_weight_lbs": 5950,
+      "vehicle_price_usd": 101951,
+      "financed": true,
+      "buyer_state": "ON",
+      "delivery_date": "2026-09-30"
+    }
+  }
+]

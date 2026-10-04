@@ -1,0 +1,52 @@
+<% content_for :title, "Operations dashboard" %>
+<section class="mb-12">
+  <p class="eyebrow">Operations overview</p>
+  <h1 class="display mt-3">Vehicle services, at a glance.</h1>
+  <p class="lede mt-4">A unified view of registration, title, lien, and delivery activity across the network.</p>
+</section>
+
+<div class="stat-row mb-12">
+  <% [
+       ["Registrations pending", @registrations_pending, "Draft and submitted records"],
+       ["Temp tags expiring", @temp_tags_expiring, "Within the next 7 days"],
+       ["Liens pending", @liens_pending, "Awaiting filing"],
+       ["Titles in review", @titles_in_review, "Applications in review"]
+     ].each do |label, value, note| %>
+    <div class="stat"><p class="stat-label"><%= label %></p><p class="stat-value"><%= value %></p><p class="stat-note"><%= note %></p></div>
+  <% end %>
+</div>
+
+<section class="mb-12">
+  <p class="eyebrow mb-4">Workspaces</p>
+  <div class="grid gap-4 md:grid-cols-3">
+    <% [
+         ["Registrations", "Calculate fees and submit records to a simulated DMV.", registrations_path],
+         ["Temporary tags", "Issue and monitor temporary operating tags.", temp_tags_path],
+         ["Lien filings", "Review lien requirements and filing methods.", lien_filings_path],
+         ["Titling", "Track title applications through their lifecycle.", title_applications_path],
+         ["Dealer portal", "Find delivered vehicles still awaiting registration.", dealer_portal_deliveries_path],
+         ["Customers", "Manage customers, vehicles, and their records.", customers_path],
+         ["Jurisdictions", "Browse rules and fee structures across all service areas.", jurisdictions_path]
+       ].each do |label, description, path| %>
+      <%= link_to path, class: "card card-body block hover:border-ink-400" do %>
+        <p class="heading"><%= label %></p><p class="mt-3 text-sm leading-relaxed text-ink-400"><%= description %></p>
+        <span class="btn-link mt-6">Open workspace →</span>
+      <% end %>
+    <% end %>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow mb-4">Recent registrations</p>
+  <div class="card overflow-x-auto">
+    <% if @recent_registrations.any? %>
+      <table class="table"><thead><tr><th>Customer</th><th>Vehicle</th><th>Jurisdiction</th><th>Status</th><th class="num">Total</th></tr></thead>
+        <tbody><% @recent_registrations.each do |registration| %><tr>
+          <td><%= registration.vehicle.customer.display_name %></td><td><%= link_to registration.vehicle.vin, vehicle_path(registration.vehicle), class: "text-ink-100 hover:text-champagne" %></td>
+          <td><%= jurisdiction_name(registration.jurisdiction_code) %></td><td><%= status_badge(registration.status) %></td>
+          <td class="num"><%= format_money(registration.total_cents, registration.currency) %></td>
+        </tr><% end %></tbody>
+      </table>
+    <% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+  </div>
+</section>

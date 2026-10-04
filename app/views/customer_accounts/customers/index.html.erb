@@ -1,0 +1,20 @@
+<% content_for :title, "Customers" %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+  <div><p class="eyebrow">Customer accounts</p><h1 class="display mt-3">Customers</h1><p class="lede mt-4">Customer profiles and vehicles across the service network.</p></div>
+  <div class="flex gap-3"><%= link_to "New customer", new_customer_path, class: "btn-primary" %></div>
+</section>
+<%= form_with url: customers_path, method: :get, class: "mb-6 flex flex-col gap-3 sm:flex-row" do |form| %>
+  <%= form.search_field :q, value: params[:q], placeholder: "Search name, email, number", class: "input" %>
+  <%= form.select :jurisdiction, options_for_select([["All jurisdictions", ""]] + Jurisdictions.codes.sort.map { |code| [code, code] }, params[:jurisdiction]), {}, class: "select sm:max-w-xs" %>
+  <%= form.submit "Apply", class: "btn-secondary" %>
+<% end %>
+<div class="card overflow-x-auto">
+  <% if @customers.any? %>
+    <table class="table"><thead><tr><th>Customer</th><th>Number</th><th>Jurisdiction</th><th>Email</th><th>Vehicles</th></tr></thead><tbody>
+      <% @customers.each do |customer| %><tr>
+        <td><%= link_to customer.display_name, customer_path(customer), class: "text-ink-100 hover:text-champagne" %></td>
+        <td><%= customer.customer_number %></td><td><%= customer.jurisdiction_code %></td><td><%= customer.email %></td><td><%= customer.vehicles.size %></td>
+      </tr><% end %>
+    </tbody></table>
+  <% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
+</div>
