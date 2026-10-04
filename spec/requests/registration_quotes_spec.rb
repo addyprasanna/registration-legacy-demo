@@ -1,4 +1,5 @@
 require "rails_helper"
+require "socket"
 
 RSpec.describe "POST /registration_quotes", type: :request do
   def valid_payload
@@ -86,6 +87,29 @@ RSpec.describe "POST /registration_quotes", type: :request do
     expect(GoRouting::Comparison.last).to have_attributes(outcome: "fallback", mode: "go")
   end
 
+  it "falls back to the legacy response when Go refuses the connection" do
+    set_ca_mode("go")
+    expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
+    server = TCPServer.new("127.0.0.1", 0)
+    port = server.addr[1]
+    server.close
+    original_url = ENV["REGISTRATION_GO_URL"]
+    ENV["REGISTRATION_GO_URL"] = "http://127.0.0.1:#{port}"
+
+    post_quote(valid_payload)
+
+    expect(response).to have_http_status(:ok)
+    expect(response.parsed_body).to eq(expected)
+    expect(GoRouting::Comparison.last).to have_attributes(
+      outcome: "fallback",
+      mode: "go",
+      go_status: nil
+    )
+  ensure
+    server&.close unless server&.closed?
+    ENV["REGISTRATION_GO_URL"] = original_url
+  end
+
   it "returns the legacy response for a Go 501 result" do
     set_ca_mode("go")
     expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
@@ -98,6 +122,56 @@ RSpec.describe "POST /registration_quotes", type: :request do
     expect(response).to have_http_status(:ok)
     expect(response.parsed_body).to eq(expected)
     expect(GoRouting::Comparison.last).to have_attributes(outcome: "not_migrated", mode: "go")
+  end
+
+  it "returns the legacy response for an unknown-jurisdiction Go 422 result" do
+    set_ca_mode("go")
+    expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
+    allow(GoRouting::Client).to receive(:call).and_return(
+      GoRouting::Client::Response.new(status: 422, body: { "error" => "Unknown jurisdiction: CA" })
+    )
+
+    post_quote(valid_payload)
+
+    expect(response).to have_http_status(:ok)
+    expect(response.parsed_body).to eq(expected)
+    expect(GoRouting::Comparison.last).to have_attributes(
+      outcome: "not_migrated",
+      mode: "go",
+      go_status: 422
+    )
+  end
+
+  it "does not enqueue a shadow comparison when the kill switch is active" do
+    set_ca_mode("shadow")
+    expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
+    original = ENV["GO_ROUTING_KILL_SWITCH"]
+    ENV["GO_ROUTING_KILL_SWITCH"] = "1"
+
+    expect { post_quote(valid_payload) }.not_to have_enqueued_job(GoRouting::ShadowCompareJob)
+
+    expect(response).to have_http_status(:ok)
+    expect(response.parsed_body).to eq(expected)
+    expect(GoRouting::Comparison.count).to eq(0)
+  ensure
+    ENV["GO_ROUTING_KILL_SWITCH"] = original
+  end
+
+  it "calls Go in go mode when the kill switch is zero" do
+    set_ca_mode("go")
+    expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
+    original = ENV["GO_ROUTING_KILL_SWITCH"]
+    ENV["GO_ROUTING_KILL_SWITCH"] = "0"
+    expect(GoRouting::Client).to receive(:call).once.and_return(
+      GoRouting::Client::Response.new(status: 200, body: expected)
+    )
+
+    post_quote(valid_payload)
+
+    expect(response).to have_http_status(:ok)
+    expect(response.parsed_body).to eq(expected)
+  ensure
+    ENV["GO_ROUTING_KILL_SWITCH"] = original
   end
 
   it "forces legacy routing when the kill switch is active" do
