@@ -16,8 +16,12 @@ RSpec.describe "POST /registration_quotes", type: :request do
     post "/registration_quotes", params: payload.to_json, headers: { "CONTENT_TYPE" => "application/json" }
   end
 
+  def set_ca_mode(mode)
+    GoRouting::Route.find_or_initialize_by(jurisdiction_code: "CA").update!(mode: mode)
+  end
+
   it "returns a California quote with the legacy response shape" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "legacy")
+    set_ca_mode("legacy")
     post_quote(valid_payload)
 
     expect(response).to have_http_status(:ok)
@@ -33,7 +37,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "returns the legacy response and enqueues a comparison in shadow mode" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "shadow")
+    set_ca_mode("shadow")
     expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
 
     expect { post_quote(valid_payload) }.to have_enqueued_job(GoRouting::ShadowCompareJob)
@@ -43,7 +47,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "returns the Go response and records a matching comparison in Go mode" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "go")
+    set_ca_mode("go")
     legacy_body = RegistrationQuoteService.call(valid_payload).body.stringify_keys
     allow(GoRouting::Client).to receive(:call).and_return(
       GoRouting::Client::Response.new(status: 200, body: legacy_body)
@@ -57,7 +61,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "records a mismatch and returns the Go response in Go mode" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "go")
+    set_ca_mode("go")
     go_body = RegistrationQuoteService.call(valid_payload).body.stringify_keys.merge("total_cents" => 1)
     allow(GoRouting::Client).to receive(:call).and_return(
       GoRouting::Client::Response.new(status: 200, body: go_body)
@@ -71,7 +75,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "returns the legacy response and records a fallback when Go is unavailable" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "go")
+    set_ca_mode("go")
     expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
     allow(GoRouting::Client).to receive(:call).and_raise(GoRouting::Client::Unavailable)
 
@@ -83,7 +87,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "returns the legacy response for a Go 501 result" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "go")
+    set_ca_mode("go")
     expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
     allow(GoRouting::Client).to receive(:call).and_return(
       GoRouting::Client::Response.new(status: 501, body: { "error" => "not migrated" })
@@ -97,7 +101,7 @@ RSpec.describe "POST /registration_quotes", type: :request do
   end
 
   it "forces legacy routing when the kill switch is active" do
-    GoRouting::Route.create!(jurisdiction_code: "CA", mode: "go")
+    set_ca_mode("go")
     expected = RegistrationQuoteService.call(valid_payload).body.stringify_keys
     original = ENV["GO_ROUTING_KILL_SWITCH"]
     ENV["GO_ROUTING_KILL_SWITCH"] = "1"
