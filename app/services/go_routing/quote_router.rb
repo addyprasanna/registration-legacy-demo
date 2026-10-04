@@ -52,7 +52,8 @@ module GoRouting
       response = Client.call(params)
       latency_ms = elapsed_ms(started_at)
       legacy_status = Rack::Utils.status_code(legacy.status)
-      outcome = comparison_outcome(legacy_status, legacy.body, response.status, response.body)
+      not_migrated = go_not_migrated?(route, response)
+      outcome = not_migrated ? "not_migrated" : comparison_outcome(legacy_status, legacy.body, response.status, response.body)
       record_comparison(
         route: route,
         mode: "go",
@@ -64,7 +65,7 @@ module GoRouting
         outcome: outcome,
         latency_ms: latency_ms
       )
-      return legacy if response.status == 501
+      return legacy if not_migrated
 
       RegistrationQuoteService::Result.new(response.status, response.body)
     rescue Client::Unavailable
@@ -85,6 +86,11 @@ module GoRouting
     def self.elapsed_ms(started_at)
       ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_at) * 1_000).round
     end
-    private_class_method :route_to_go, :elapsed_ms
+
+    def self.go_not_migrated?(route, response)
+      response.status == 501 ||
+        (response.status == 422 && response.body == { "error" => "Unknown jurisdiction: #{route.jurisdiction_code}" })
+    end
+    private_class_method :route_to_go, :elapsed_ms, :go_not_migrated?
   end
 end

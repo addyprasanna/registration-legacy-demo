@@ -288,16 +288,16 @@ Captured response:
 
 ### `POST /registration_quotes`
 
-The compatibility endpoint accepts the established quote fields and returns its unwrapped response body. Its supported jurisdiction codes are `CA`, `TX`, `FL`, `NY`, `WA`, and `ON`.
+The compatibility endpoint accepts the established quote fields for all 54 registered jurisdictions and returns its unwrapped response body. See [`GET /api/v1/jurisdictions`](#get-apiv1jurisdictions) for the current code list.
 
 | Field | Type | Required | Constraint/default |
 |---|---|---:|---|
-| `state` | string | Yes | One of the supported compatibility codes |
+| `state` | string | Yes | Registered jurisdiction code |
 | `vehicle_weight_lbs` | integer | Yes | Greater than zero |
 | `vehicle_price_usd` | number | Yes | Non-negative amount in dollars |
 | `delivery_date` | string | Yes | Date in `YYYY-MM-DD` format |
 | `financed` | boolean | No | Defaults to `false` |
-| `buyer_state` | string | No | Supported compatibility code; defaults to `state` |
+| `buyer_state` | string | No | Registered jurisdiction code; defaults to `state` |
 
 Example:
 

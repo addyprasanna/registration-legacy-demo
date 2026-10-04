@@ -22,6 +22,8 @@ MODEL_CURB_WEIGHTS = {
   "Gravity Grand Touring" => 6_000
 }.freeze
 WEIGHT_VARIANTS = [-100, -50, 0, 50, 100].freeze
+TEMP_TAG_BOUNDARY_OFFSETS = [-1, 0, 1].freeze
+MONTH_END_TAG_VEHICLE_INDICES = [29, 59].freeze
 FINANCING_DISTRIBUTION = (
   Array.new(42, "cash") +
   Array.new(31, "loan") +
@@ -199,8 +201,32 @@ Jurisdictions.codes.each_with_index do |code, index|
       end
     end
 
-    if ((vehicle_index % 4).zero? || code == "FL") && !vehicle.temp_tags.exists?
-      TempTags::IssueService.call(vehicle: vehicle, issue_date: vehicle.delivery_date, at: SEED_TIME + vehicle_index)
+    boundary_tag = (vehicle_index % 5).zero?
+    month_end_tag = MONTH_END_TAG_VEHICLE_INDICES.include?(vehicle_index)
+    if ((vehicle_index % 4).zero? || boundary_tag || month_end_tag) && !vehicle.temp_tags.exists?
+      issue_date = vehicle.delivery_date
+      if boundary_tag
+        target_expiry = SEED_DATE + TEMP_TAG_BOUNDARY_OFFSETS.fetch(vehicle_index % 3)
+        boundary_input = Jurisdictions::QuoteInput.new(
+          jurisdiction: code,
+          weight_lbs: vehicle.weight_lbs,
+          purchase_price_cents: vehicle.purchase_price_cents,
+          powertrain: vehicle.powertrain,
+          financing: vehicle.financing,
+          lienholder_elt: vehicle.lienholder_elt,
+          buyer_jurisdiction: code,
+          county: vehicle.county,
+          usage: vehicle.usage,
+          delivery_date: SEED_DATE
+        )
+        jurisdiction = Jurisdictions.for(code)
+        valid_days = jurisdiction.temp_tag_valid_days(boundary_input)
+        expiry_span = jurisdiction.temp_tag_expires_on(boundary_input) - SEED_DATE
+        issue_date = target_expiry - valid_days - (expiry_span - valid_days)
+      elsif month_end_tag
+        issue_date = SEED_DATE.prev_month.end_of_month
+      end
+      TempTags::IssueService.call(vehicle: vehicle, issue_date: issue_date, at: SEED_TIME + vehicle_index)
     end
 
     unless vehicle.lien_filings.exists?
