@@ -219,10 +219,8 @@ Jurisdictions.codes.each_with_index do |code, index|
           usage: vehicle.usage,
           delivery_date: SEED_DATE
         )
-        jurisdiction = Jurisdictions.for(code)
-        valid_days = jurisdiction.temp_tag_valid_days(boundary_input)
-        expiry_span = jurisdiction.temp_tag_expires_on(boundary_input) - SEED_DATE
-        issue_date = target_expiry - valid_days - (expiry_span - valid_days)
+        expiry_span = Jurisdictions.for(code).temp_tag_expires_on(boundary_input) - SEED_DATE
+        issue_date = target_expiry - expiry_span
       elsif month_end_tag
         issue_date = SEED_DATE.prev_month.end_of_month
       end
