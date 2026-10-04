@@ -1,0 +1,33 @@
+<% content_for :title, "Go routing" %>
+<section class="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+  <div><p class="eyebrow">Operations console</p><h1 class="display mt-3">Go routing</h1><p class="lede mt-4">Manage quote routing by jurisdiction and review recent comparisons.</p></div>
+  <%= button_to "Kill all → legacy", go_routing_kill_all_path, method: :post, class: "border border-red-500 px-5 py-3 text-sm text-red-300 hover:bg-red-950" %>
+</section>
+<% if @kill_switch_active %><div class="flash-alert mb-8">The GO_ROUTING_KILL_SWITCH environment setting is active.</div><% end %>
+<div class="card overflow-x-auto"><table class="table">
+  <thead><tr><th>Jurisdiction</th><th>Mode</th><th>Last 24 hours</th><th></th></tr></thead>
+  <tbody><% @routes.each do |route| %><tr>
+    <td class="font-medium text-ink-100"><%= route.jurisdiction_code %></td>
+    <td><div class="flex flex-wrap gap-1">
+      <% GoRouting::Route::MODES.each do |mode| %>
+        <%= button_to mode.titleize, go_routing_route_path(route.jurisdiction_code), method: :patch, params: { mode: mode }, class: ["border px-3 py-2 text-xs uppercase tracking-eyebrow", (route.mode == mode ? "border-champagne bg-champagne text-ink-950" : "border-ink-700 text-ink-300 hover:border-ink-300")] %>
+      <% end %>
+    </div></td>
+    <td><div class="flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-400">
+      <% GoRouting::Comparison::OUTCOMES.each do |outcome| %><span><%= outcome.humanize %> <strong class="text-ink-100"><%= @comparison_counts[[route.jurisdiction_code, outcome]] || 0 %></strong></span><% end %>
+    </div></td>
+    <td><%= button_to "Kill", go_routing_route_path(route.jurisdiction_code), method: :patch, params: { mode: "legacy" }, class: "border border-red-500 px-4 py-2 text-xs text-red-300 hover:bg-red-950" %></td>
+  </tr><% end %></tbody>
+</table></div>
+<p class="eyebrow mb-4 mt-12">Recent mismatches and errors</p>
+<div class="space-y-3">
+  <% if @recent_comparisons.any? %>
+    <% @recent_comparisons.each do |comparison| %><details class="card">
+      <summary class="cursor-pointer list-none px-6 py-5 text-sm text-ink-100"><%= comparison.jurisdiction_code %> · <%= comparison.mode.humanize %> · <%= comparison.outcome.humanize %> · <%= comparison.created_at.strftime("%b %-d, %Y · %-I:%M %p") %></summary>
+      <div class="grid gap-6 border-t border-ink-800 p-6 lg:grid-cols-2">
+        <div><p class="eyebrow mb-3">Legacy · HTTP <%= comparison.legacy_status || "—" %></p><pre class="overflow-x-auto text-xs text-ink-300"><%= JSON.pretty_generate(comparison.legacy_body || {}) %></pre></div>
+        <div><p class="eyebrow mb-3">Go · HTTP <%= comparison.go_status || "—" %></p><pre class="overflow-x-auto text-xs text-ink-300"><%= JSON.pretty_generate(comparison.go_body || {}) %></pre></div>
+      </div>
+    </details><% end %>
+  <% else %><div class="card p-8 text-center text-sm text-ink-400">No recent mismatches or errors.</div><% end %>
+</div>

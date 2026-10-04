@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   resources :registration_quotes, only: :create
 
   root "dashboard#show"
+  get "/go_routing", to: "go_routing/routes#index", as: :go_routing
+  post "/go_routing/kill_all", to: "go_routing/routes#kill_all", as: :go_routing_kill_all
+  patch "/go_routing/:jurisdiction_code", to: "go_routing/routes#update", as: :go_routing_route
   scope module: :customer_accounts do
     resources :customers
     resources :vehicles, only: :show
@@ -19,7 +22,9 @@ Rails.application.routes.draw do
     end
   end
   scope module: :lien_filings do
-    resources :lien_filings, only: %i[index show new create]
+    resources :lien_filings, only: %i[index show new create] do
+      patch :file, on: :member
+    end
   end
   scope module: :titling do
     resources :title_applications, only: %i[index show new create] do

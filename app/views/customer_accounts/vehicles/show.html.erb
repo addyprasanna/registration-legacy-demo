@@ -25,3 +25,9 @@
     <% @vehicle.title_applications.each do |application| %><tr><td><%= link_to application.application_number, title_application_path(application), class: "text-ink-100 hover:text-champagne" %></td><td><%= status_badge(application.status) %></td><td><%= application.title_number.presence || "—" %></td></tr><% end %>
   </tbody></table><% else %><p class="muted py-10 text-center text-sm">No records.</p><% end %>
 </div>
+<p class="eyebrow mb-4 mt-12">Activity</p><div class="card"><div class="card-body">
+  <% if @status_events.any? %><ol class="divide-y divide-ink-800"><% @status_events.each do |entry| %><li class="flex flex-col gap-3 py-5 sm:flex-row sm:items-center sm:justify-between">
+    <div><p class="eyebrow"><%= entry.domain.humanize %></p><p class="mt-2 text-ink-100"><%= entry.event.humanize %></p><p class="mt-1 text-sm text-ink-400"><%= entry.from_status.presence&.humanize || "—" %> → <%= entry.to_status.presence&.humanize || "—" %></p></div>
+    <time class="text-sm text-ink-400"><%= entry.occurred_at.strftime("%b %-d, %Y · %-I:%M %p") %></time>
+  </li><% end %></ol><% else %><p class="muted py-10 text-center text-sm">No activity.</p><% end %>
+</div></div>

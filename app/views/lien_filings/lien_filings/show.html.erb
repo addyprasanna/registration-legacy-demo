@@ -5,3 +5,4 @@
   <div><dt>Financing</dt><dd><%= @lien_filing.financing.humanize %></dd></div><div><dt>Lienholder</dt><dd><%= @lien_filing.lienholder_name.presence || "—" %></dd></div><div><dt>ELT participant</dt><dd><%= @lien_filing.elt_participant? ? "Yes" : "No" %></dd></div>
   <div><dt>Reason</dt><dd><%= @lien_filing.reason %></dd></div>
 </dl></div></div>
+<% if @lien_filing.status == "pending" %><div class="mt-8"><%= button_to "File lien", file_lien_filing_path(@lien_filing), method: :patch, class: "btn-primary" %></div><% end %>

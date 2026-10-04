@@ -13,7 +13,21 @@ STREETS = %w[
   Pine\ St Riverside\ Dr Bayview\ Rd Union\ St
 ].freeze
 VIN_ALPHABET = "0123456789ABCDEFGHJKLMNPRSTUVWXYZ".chars.freeze
-FINANCING_OPTIONS = %w[cash loan lease refinance].freeze
+MODEL_CURB_WEIGHTS = {
+  "Air Pure" => 4_800,
+  "Air Touring" => 4_900,
+  "Air Grand Touring" => 5_000,
+  "Air Sapphire" => 5_400,
+  "Gravity Touring" => 5_700,
+  "Gravity Grand Touring" => 6_000
+}.freeze
+WEIGHT_VARIANTS = [-100, -50, 0, 50, 100].freeze
+FINANCING_DISTRIBUTION = (
+  Array.new(42, "cash") +
+  Array.new(31, "loan") +
+  Array.new(15, "lease") +
+  Array.new(12, "refinance")
+).freeze
 COLORS = %w[Cosmos Silver Stellar White Obsidian].freeze
 
 JURISDICTION_PROFILES = {
@@ -96,7 +110,7 @@ COUNTY_TABLES = {
 
 raise "Jurisdiction profile table is incomplete" unless JURISDICTION_PROFILES.keys.sort == Jurisdictions.codes.sort
 
-rng = Random.new(20261004)
+rng = Random.new(20261020)
 used_emails = {}
 used_vins = {}
 
@@ -135,19 +149,24 @@ Jurisdictions.codes.each_with_index do |code, index|
       used_vins[candidate] = true
       break candidate
     end
-    financing = FINANCING_OPTIONS.sample(random: rng)
-    financing = "refinance" if code == "NY" && offset.zero?
+    financing = FINANCING_DISTRIBUTION.sample(random: rng)
     lienholder_last_name = LAST_NAMES.sample(random: rng)
     county_options = COUNTY_TABLES[code]
     county = if rng.rand(2).zero? && county_options
                county_options.sample(random: rng)
              end
+    model = CustomerAccounts::Vehicle::MODELS.sample(random: rng)
+    weight = if model == "Gravity Grand Touring"
+               MODEL_CURB_WEIGHTS.fetch(model)
+             else
+               MODEL_CURB_WEIGHTS.fetch(model) + WEIGHT_VARIANTS.sample(random: rng)
+             end
     vehicle_attributes = {
       customer: customer,
-      model: CustomerAccounts::Vehicle::MODELS.sample(random: rng),
+      model: model,
       model_year: rng.rand(2022..2026),
       exterior_color: COLORS.sample(random: rng),
-      weight_lbs: code == "TX" && offset.zero? ? 6_000 : rng.rand(4_300..6_300),
+      weight_lbs: weight,
       purchase_price_cents: rng.rand(6_900_000..25_000_000),
       powertrain: "bev",
       financing: financing,
@@ -180,8 +199,8 @@ Jurisdictions.codes.each_with_index do |code, index|
       end
     end
 
-    if (vehicle_index % 4).zero? || code == "FL"
-      TempTags::IssueService.call(vehicle: vehicle, issue_date: vehicle.delivery_date)
+    if ((vehicle_index % 4).zero? || code == "FL") && !vehicle.temp_tags.exists?
+      TempTags::IssueService.call(vehicle: vehicle, issue_date: vehicle.delivery_date, at: SEED_TIME + vehicle_index)
     end
 
     unless vehicle.lien_filings.exists?
@@ -203,27 +222,59 @@ Jurisdictions.codes.each_with_index do |code, index|
         reason: result.reason,
         status: result.required ? "pending" : "not_required"
       )
-      filing.update!(status: "filed") if result.required && vehicle_index % 4 == 0
+      ::StatusEvent.create!(
+        vehicle: vehicle,
+        domain: "lien_filings",
+        subject_type: filing.class.name,
+        subject_id: filing.id,
+        event: "created",
+        to_status: filing.status,
+        occurred_at: SEED_TIME + vehicle_index
+      )
     end
 
-    unless vehicle.title_applications.exists?
+    filing = vehicle.lien_filings.find_by(status: "pending")
+    if filing && [0, 3].include?(vehicle_index % 4)
+      LienFilings::FilingService.call(filing, at: SEED_TIME + vehicle_index + 1)
+    end
+
+    application = vehicle.title_applications.where.not(status: "rejected").first
+    unless application
       application = Titling::TitleApplication.create!(
         vehicle: vehicle,
         jurisdiction_code: code,
-        application_number: "TA-#{code}-#{format('%06d', vehicle_index)}",
+        application_number: "TA-#{code}-#{format('%06d', Titling::TitleApplication.count + 1)}",
         status: "draft",
         status_history: [{ "status" => "draft", "at" => SEED_TIME.iso8601 }]
       )
-      (vehicle_index % 4).times do |step|
-        Titling::StatusTracker.new(application).advance!(at: SEED_TIME + vehicle_index + step + 1)
-      end
+      ::StatusEvent.create!(
+        vehicle: vehicle,
+        domain: "titling",
+        subject_type: application.class.name,
+        subject_id: application.id,
+        event: "created",
+        to_status: application.status,
+        occurred_at: SEED_TIME
+      )
+    end
+    target_step = vehicle_index % 4
+    tracker = Titling::StatusTracker.new(application)
+    while Titling::StatusTracker::FLOW.index(application.status) < target_step
+      current_step = Titling::StatusTracker::FLOW.index(application.status)
+      tracker.advance!(at: SEED_TIME + vehicle_index + current_step + 1)
     end
 
     delivery_center = REGIONAL_DELIVERY_CENTERS.fetch(profile.fetch(:region)).sample(random: rng)
     DealerPortal::Delivery.find_or_create_by!(vehicle: vehicle) do |delivery|
       delivery.delivery_center = delivery_center
       delivery.scheduled_on = vehicle.delivery_date
-      delivery.status = vehicle_index.even? ? "delivered" : "scheduled"
+      delivery.status = vehicle.temp_tags.exists? || vehicle_index.even? ? "delivered" : "scheduled"
     end
+  end
+end
+
+RegistrationQuoteService::SUPPORTED_STATES.each do |code|
+  GoRouting::Route.find_or_create_by!(jurisdiction_code: code) do |route|
+    route.mode = "legacy"
   end
 end

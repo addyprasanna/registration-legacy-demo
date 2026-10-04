@@ -31,6 +31,8 @@ Three related rule definitions intentionally live outside the jurisdiction servi
 - **JSON API:** `/api/v1` controllers inherit from `Api::V1::BaseController`. It enforces JSON request content type, validates field types and constraints, and returns success/error envelopes with request IDs. API controllers use the jurisdiction rules and domain services; an API error controller handles unknown API routes.
 - **Compatibility:** `POST /registration_quotes` uses `RegistrationQuotesController < ActionController::API` with parameter wrapping disabled. `RegistrationQuoteService` accepts the original six compatibility jurisdictions—CA, TX, FL, NY, WA, and ON—and returns the established unwrapped response. This endpoint is frozen as the comparison contract, and the California response contract is unchanged.
 
+`GoRouting::QuoteRouter` computes the compatibility response and applies the per-jurisdiction mode. Shadow mode returns that response and queues a comparison; Go mode calls the configured local service and falls back when the service is unavailable or reports a jurisdiction as not migrated. `GO_ROUTING_KILL_SWITCH=1` forces compatibility responses, and `/go_routing` manages route modes and comparisons.
+
 ## Data and integrations
 
 `Registrations::FeeCalculator` snapshots fee lines, currency, and totals onto each registration. `TempTags::IssueService` persists issue and expiry dates; `LienFilings::DeterminationService` records the filing requirement and method; and `Titling::StatusTracker` advances title history. The dealer portal query composes deliveries with registration state to identify pending work. The dashboard reads across these domains.

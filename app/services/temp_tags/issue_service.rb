@@ -1,6 +1,6 @@
 module TempTags
   class IssueService
-    def self.call(vehicle:, issue_date: Date.current, buyer_jurisdiction: vehicle.jurisdiction_code, usage: vehicle.usage, valid_days: nil)
+    def self.call(vehicle:, issue_date: Date.current, buyer_jurisdiction: vehicle.jurisdiction_code, usage: vehicle.usage, valid_days: nil, at: Time.current)
       input = Jurisdictions::QuoteInput.new(
         jurisdiction: vehicle.jurisdiction_code,
         weight_lbs: vehicle.weight_lbs,
@@ -17,15 +17,29 @@ module TempTags
       default_days = jurisdiction.temp_tag_valid_days(input)
       tag_days = valid_days || default_days
       number = "#{vehicle.jurisdiction_code}-T-#{format('%06d', TempTags::TempTag.count + 1)}"
-      TempTags::TempTag.create!(
-        vehicle: vehicle,
-        jurisdiction_code: vehicle.jurisdiction_code,
-        tag_number: number,
-        issued_on: issue_date,
-        valid_days: tag_days,
-        expires_on: jurisdiction.temp_tag_expires_on(input) + (tag_days - default_days),
-        status: "active"
-      )
+      tag = nil
+      ApplicationRecord.transaction do
+        tag = TempTags::TempTag.create!(
+          vehicle: vehicle,
+          jurisdiction_code: vehicle.jurisdiction_code,
+          tag_number: number,
+          issued_on: issue_date,
+          valid_days: tag_days,
+          expires_on: jurisdiction.temp_tag_expires_on(input) + (tag_days - default_days),
+          status: "active"
+        )
+        ::StatusEvent.create!(
+          vehicle: vehicle,
+          domain: "temp_tags",
+          subject_type: tag.class.name,
+          subject_id: tag.id,
+          event: "issued",
+          to_status: tag.status,
+          occurred_at: at
+        )
+        vehicle.deliveries.where(status: "scheduled").update_all(status: "delivered", updated_at: at)
+      end
+      tag
     end
   end
 end
