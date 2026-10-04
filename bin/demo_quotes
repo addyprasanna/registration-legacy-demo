@@ -1,0 +1,59 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Replays recorded California quote requests against the local Rails server so
+# that GoRouting::ShadowCompareJob produces shadow comparisons against the
+# registration-go implementation.
+#
+# Usage:
+#   bin/demo_quotes
+#
+# Requires the app to be listening on http://localhost:3000 (e.g. via
+# `bin/rails s`). Reads fixtures/recorded_requests.json, takes the first 20
+# entries with body.state == "CA", and POSTs each body verbatim to
+# POST /registration_quotes (parameter wrapping is disabled server-side).
+
+require "json"
+require "net/http"
+require "uri"
+
+FIXTURE_PATH = File.expand_path("../fixtures/recorded_requests.json", __dir__)
+ENDPOINT = URI("http://localhost:3000/registration_quotes")
+STATE = "CA"
+LIMIT = 20
+
+entries = JSON.parse(File.read(FIXTURE_PATH))
+ca_entries = entries.select { |e| e.dig("body", "state") == STATE }
+requests = ca_entries.first(LIMIT)
+
+if ca_entries.size < LIMIT
+  warn "demo_quotes: only #{ca_entries.size} #{STATE} entries in #{FIXTURE_PATH}; sending #{requests.size}"
+end
+
+ok = 0
+failed = 0
+
+requests.each do |entry|
+  body = JSON.generate(entry["body"])
+  http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port)
+  http.open_timeout = 5
+  http.read_timeout = 10
+  request = Net::HTTP::Post.new(ENDPOINT, "Content-Type" => "application/json")
+  request.body = body
+
+  begin
+    response = http.request(request)
+    if response.code.start_with?("2")
+      ok += 1
+    else
+      failed += 1
+    end
+    puts "#{entry["id"]}: #{response.code}"
+  rescue SystemCallError, SocketError, Timeout::Error, Net::HTTPError => e
+    failed += 1
+    warn "#{entry["id"]}: error #{e.class}: #{e.message}"
+  end
+end
+
+puts "demo_quotes: sent #{requests.size} #{STATE} requests to #{ENDPOINT.host}:#{ENDPOINT.port} — #{ok} ok, #{failed} failed"
+exit(failed.zero? ? 0 : 1)
