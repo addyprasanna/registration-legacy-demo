@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_10_04_000000) do
+ActiveRecord::Schema[7.1].define(version: 2026_10_04_041119) do
   create_table "customer_accounts_customers", force: :cascade do |t|
     t.string "customer_number", null: false
     t.string "first_name", null: false
@@ -59,6 +59,31 @@ ActiveRecord::Schema[7.1].define(version: 2026_10_04_000000) do
     t.index ["vehicle_id"], name: "index_dealer_portal_deliveries_on_vehicle_id"
   end
 
+  create_table "go_routing_comparisons", force: :cascade do |t|
+    t.string "jurisdiction_code", null: false
+    t.string "mode", null: false
+    t.string "outcome", null: false
+    t.integer "legacy_status"
+    t.integer "go_status"
+    t.json "request_params"
+    t.json "legacy_body"
+    t.json "go_body"
+    t.integer "latency_ms"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["jurisdiction_code", "created_at"], name: "idx_on_jurisdiction_code_created_at_6a0f0bdc14"
+  end
+
+  create_table "go_routing_routes", force: :cascade do |t|
+    t.string "jurisdiction_code", null: false
+    t.string "mode", default: "legacy", null: false
+    t.string "updated_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["jurisdiction_code"], name: "index_go_routing_routes_on_jurisdiction_code", unique: true
+    t.check_constraint "mode IN ('legacy', 'shadow', 'go')", name: "go_routing_routes_mode"
+  end
+
   create_table "lien_filings", force: :cascade do |t|
     t.integer "vehicle_id", null: false
     t.string "jurisdiction_code", null: false
@@ -89,6 +114,21 @@ ActiveRecord::Schema[7.1].define(version: 2026_10_04_000000) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["vehicle_id"], name: "index_registrations_on_vehicle_id"
+  end
+
+  create_table "status_events", force: :cascade do |t|
+    t.integer "vehicle_id", null: false
+    t.string "domain", null: false
+    t.string "subject_type"
+    t.integer "subject_id"
+    t.string "event", null: false
+    t.string "from_status"
+    t.string "to_status"
+    t.datetime "occurred_at", null: false
+    t.json "metadata", default: {}
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["vehicle_id", "occurred_at"], name: "index_status_events_on_vehicle_id_and_occurred_at"
   end
 
   create_table "temp_tags", force: :cascade do |t|
@@ -124,6 +164,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_10_04_000000) do
   add_foreign_key "dealer_portal_deliveries", "customer_accounts_vehicles", column: "vehicle_id"
   add_foreign_key "lien_filings", "customer_accounts_vehicles", column: "vehicle_id"
   add_foreign_key "registrations", "customer_accounts_vehicles", column: "vehicle_id"
+  add_foreign_key "status_events", "customer_accounts_vehicles", column: "vehicle_id"
   add_foreign_key "temp_tags", "customer_accounts_vehicles", column: "vehicle_id"
   add_foreign_key "title_applications", "customer_accounts_vehicles", column: "vehicle_id"
 end

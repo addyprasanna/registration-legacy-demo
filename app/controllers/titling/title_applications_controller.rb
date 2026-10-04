@@ -29,6 +29,8 @@ module Titling
       application = TitleApplication.find(params[:id])
       StatusTracker.new(application).advance!
       redirect_to title_application_path(application), notice: "Title application status advanced."
+    rescue StatusTracker::LienPending => error
+      redirect_to title_application_path(application), alert: error.message
     end
   end
 end

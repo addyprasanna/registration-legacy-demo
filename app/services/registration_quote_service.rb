@@ -1,6 +1,6 @@
 class RegistrationQuoteService
   INPUT_FIELDS = %i[state vehicle_weight_lbs vehicle_price_usd financed buyer_state delivery_date].freeze
-  SUPPORTED_STATES = %w[CA TX FL NY WA ON].freeze
+  SUPPORTED_STATES = Jurisdictions.codes.freeze
   Result = Struct.new(:status, :body)
 
   def self.call(params)

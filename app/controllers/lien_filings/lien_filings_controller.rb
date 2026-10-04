@@ -35,5 +35,11 @@ module LienFilings
       )
       redirect_to lien_filing_path(@lien_filing), notice: "Lien determination recorded."
     end
+
+    def file
+      @lien_filing = LienFiling.find(params[:id])
+      FilingService.call(@lien_filing)
+      redirect_to lien_filing_path(@lien_filing), notice: "Lien filing sent to DMV."
+    end
   end
 end

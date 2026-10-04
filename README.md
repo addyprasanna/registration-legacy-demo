@@ -26,6 +26,10 @@ bundle exec rake golden:capture
 
 The golden capture task replays `fixtures/recorded_requests.json` and writes `fixtures/expected_responses.json`.
 
+## Go routing
+
+The `/go_routing` operations page sets each supported jurisdiction to `legacy`, `shadow`, or `go`. Shadow mode returns the compatibility response and records an asynchronous comparison; Go mode returns the Go response except when the service is unavailable or reports that the jurisdiction is not migrated. `REGISTRATION_GO_URL` selects the local Go service and defaults to `http://127.0.0.1:8080`. Set `GO_ROUTING_KILL_SWITCH=1` to force compatibility responses.
+
 ## Documentation
 
 See [docs/API.md](docs/API.md) for the JSON API and [ARCHITECTURE.md](ARCHITECTURE.md) for domain boundaries and service design.
